@@ -7,13 +7,18 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day018_P/CopyArray.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="copyArray new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day018_P/CopyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day018_P/CopyArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +98,14 @@
       <option name="presentableId" value="Default" />
       <updated>1601902405766</updated>
     </task>
+    <task id="LOCAL-00001" summary="how to use ' : '">
+      <created>1602412887650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602412887650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,38 +113,59 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="how to use ' : '" />
+    <MESSAGE value="copyArray new" />
+    <option name="LAST_COMMIT_MESSAGE" value="copyArray new" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602412560610">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.23.1396.877@44.23.1396.877" timestamp="1602412560610" />
-    <state width="1354" height="226" key="GridCell.Tab.0.bottom" timestamp="1602412515359">
+    <state width="1354" height="226" key="GridCell.Tab.0.bottom" timestamp="1602415226138">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1602412515359" />
-    <state width="1354" height="226" key="GridCell.Tab.0.center" timestamp="1602412515358">
+    <state width="1354" height="226" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1602415226138" />
+    <state width="1354" height="226" key="GridCell.Tab.0.center" timestamp="1602415226137">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1602412515358" />
-    <state width="1354" height="226" key="GridCell.Tab.0.left" timestamp="1602412515357">
+    <state width="1354" height="226" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1602415226137" />
+    <state width="1354" height="226" key="GridCell.Tab.0.left" timestamp="1602415226136">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1602412515357" />
-    <state width="1354" height="226" key="GridCell.Tab.0.right" timestamp="1602412515359">
+    <state width="1354" height="226" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1602415226136" />
+    <state width="1354" height="226" key="GridCell.Tab.0.right" timestamp="1602415226137">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1602412515359" />
+    <state width="1354" height="226" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1602415226137" />
     <state x="243" y="100" key="SettingsEditor" timestamp="1602411933238">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="243" y="100" key="SettingsEditor/44.23.1396.877@44.23.1396.877" timestamp="1602411933238" />
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1602415149431">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1602415149431" />
     <state x="1823" y="129" key="new project wizard" timestamp="1601902517291">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
