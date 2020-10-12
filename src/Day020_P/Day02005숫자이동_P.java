@@ -2,7 +2,7 @@ package Day020_P;
 
 import java.util.Scanner;
 
-public class Day02005숫자이동 {
+public class Day02005숫자이동_P {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // 캐릭터 '8'

@@ -2,7 +2,7 @@ package Day020_P;
 
 import java.util.Random;
 
-public class Day02007미니빙고 {
+public class Day02007미니빙고_P {
     public static void main(String[] args) {
         Random rn = new Random();
 

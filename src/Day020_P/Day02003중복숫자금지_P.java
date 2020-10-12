@@ -2,7 +2,7 @@ package Day020_P;
 
 import java.util.Random;
 
-public class Day02003중복숫자금지 {
+public class Day02003중복숫자금지_P {
     public static void main(String[] args) {
         Random rn = new Random();
 

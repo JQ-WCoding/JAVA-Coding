@@ -1,6 +1,6 @@
 package Day020_P;
 
-public class Day02006_4 {
+public class Day02006배수저장_P {
     public static void main(String[] args) {
 
 
