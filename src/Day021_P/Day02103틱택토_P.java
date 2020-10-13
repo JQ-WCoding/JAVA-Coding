@@ -32,9 +32,8 @@ public class Day02103틱택토_P {
                 sheetCount++;
             }
         }
-        boolean act = true;
         int turnCheck = 1;
-        while (act) {
+        while (true) {
             int bingoCount = 0;
             int turn = 1;
             for (int i = 0; i < sheet.length; i++) {
@@ -72,10 +71,10 @@ public class Day02103틱택토_P {
                     }
                 }
                 if (bingoCount == 1) {
-                    turnCheck = 2;
-                    act = false;
+                    break;
                 }
                 turn = 2;
+                turnCheck = 2;
             }
             // 상대 턴
             if (turn == 2) {
@@ -105,10 +104,9 @@ public class Day02103틱택토_P {
                     }
                 }
                 if (bingoCount == 1) {
-                    turnCheck = 1;
-                    act = false;
+                    break;
                 }
-                turn = 1;
+                turnCheck = 1;
             }
 //            for (int i = 0; i < sheet.length; i++) {
 //                    if(sheetCheck[i][0] == 0 && sheetCheck[i][1] == 0 && sheetCheck[i][2] == 0){
