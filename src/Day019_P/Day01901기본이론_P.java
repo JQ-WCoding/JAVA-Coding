@@ -33,5 +33,6 @@ public class Day01901기본이론_P {
 		//삼항연산자
 		String rs = a > b ? "크다" : "작다";
 		System.out.println(rs);
+
 	}
 }

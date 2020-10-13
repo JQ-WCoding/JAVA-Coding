@@ -14,6 +14,7 @@ public class Day02006배수저장_P {
             }
         }
         temp = new int[count];
+
         for (int i = 0; i < arr.length; i++) {
             if(arr[i] % 4 == 0){
                 temp[index] = arr[i];

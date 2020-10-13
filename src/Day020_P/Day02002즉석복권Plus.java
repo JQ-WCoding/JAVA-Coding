@@ -15,21 +15,20 @@ public class Day02002즉석복권Plus {
             lotto[i] = rn.nextInt(2);
         }
         // CheatKey
-        for (int j : lotto){
+        for (int j : lotto) {
             System.out.print(j + " ");
         }
-        while(run) {
+        while (run) {
             System.out.println("1) 당첨확인");
             System.out.println("2) 종료");
             int choice = sc.nextInt();
             if (choice == 1) {
-                for(int i = 0;i<lotto.length;i++) {
+                for (int i = 0; i < lotto.length; i++) {
                     if (lotto[i] == 1 && lotto[i + 1] == 1 && lotto[i + 2] == 1) {
                         System.out.println("당첨");
                     }
                 }
-            }
-            else if(choice == 2){
+            } else if (choice == 2) {
 
             }
         }
