@@ -25,13 +25,15 @@ public class Day02101기억력게임_P {
             System.out.print(front[j] + " ");
         }
         System.out.println();
-        boolean run = true;
 
-        while (run) {
+        while (true) {
             System.out.println("[1]번째 번호를 입력하세요");
             int myIndex1 = sc.nextInt();
             System.out.println("[2]번째 번호를 입력하세요");
             int myIndex2 = sc.nextInt();
+            if(myIndex1 == myIndex2){
+                continue;
+            }
 
             if (front[myIndex1 - 1] == front[myIndex2 - 1]) {
                 back[myIndex1 - 1] = front[myIndex1 - 1];
@@ -51,7 +53,7 @@ public class Day02101기억력게임_P {
                 }
             }
             if (count == 10) {
-                run = false;
+                break;
             }
         }
         System.out.println("게임완료");

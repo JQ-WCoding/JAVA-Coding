@@ -7,7 +7,7 @@ public class ExitGame {
         Scanner sc = new Scanner(System.in);
         int total = 0;
         for (int i = 0; i < 5; i++) {
-            System.out.println((i + 1) + ")번째 입력 :");
+            System.out.print((i + 1) + ")번째 입력 :");
             int myNum = sc.nextInt();
             total += myNum;
             if (total > 100) {
