@@ -16,18 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day021">
-      <change afterPath="$PROJECT_DIR$/src/Day020_P/Day02001영화관좌석예매_P1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day021_P/Day021021to4게임문제풀이.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day022_P/Day02201복습문제.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day022_P/Day02202복습문제.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day022_P/Day02203브루마블renew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day022_P/Day02204구구단문제.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day022_P/Day022브루마블.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day022">
+      <change afterPath="$PROJECT_DIR$/src/Day023_P/BR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day023_P/BaskinRobbins31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day023_P/Day02301구구단게임.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day023_P/Day02302배열컨트롤러.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day023_P/Game369.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day023_P/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SelfWork/MakingMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day021_P/Day02101기억력게임_P.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day021_P/Day02101기억력게임_P.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day021_P/Day02103틱택토_P.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day021_P/Day02103틱택토_P.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/ExitGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ExitGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,15 +60,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Day02204구구단문제">
-    <configuration name="Day02001영화관좌석예매_P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day020_P.Day02001영화관좌석예매_P1" />
+  <component name="RunManager" selected="Application.Day02302배열컨트롤러">
+    <configuration name="BR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day023_P.BR" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day020_P.*" />
+          <option name="PATTERN" value="Day023_P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02103틱택토_P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day021_P.Day02103틱택토_P" />
+    <configuration name="BaskinRobbins31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day023_P.BaskinRobbins31" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day021_P.*" />
+          <option name="PATTERN" value="Day023_P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day022브루마블" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day022_P.Day022브루마블" />
+    <configuration name="Day02302배열컨트롤러" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day023_P.Day02302배열컨트롤러" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day022_P.*" />
+          <option name="PATTERN" value="Day023_P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02203브루마블renew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day022_P.Day02203브루마블renew" />
+    <configuration name="Game369" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day023_P.Game369" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day022_P.*" />
+          <option name="PATTERN" value="Day023_P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02204구구단문제" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day022_P.Day02204구구단문제" />
+    <configuration name="MakingMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SelfWork.MakingMethod" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day022_P.*" />
+          <option name="PATTERN" value="SelfWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day02204구구단문제" />
-        <item itemvalue="Application.Day02203브루마블renew" />
-        <item itemvalue="Application.Day022브루마블" />
-        <item itemvalue="Application.Day02001영화관좌석예매_P1" />
-        <item itemvalue="Application.Day02103틱택토_P" />
+        <item itemvalue="Application.Day02302배열컨트롤러" />
+        <item itemvalue="Application.MakingMethod" />
+        <item itemvalue="Application.BR" />
+        <item itemvalue="Application.Game369" />
+        <item itemvalue="Application.BaskinRobbins31" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602571203781</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day022">
+      <created>1602660656409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602660656409</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,29 +229,34 @@
     <MESSAGE value="copyArray new" />
     <MESSAGE value="Day020" />
     <MESSAGE value="Day021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day021" />
+    <MESSAGE value="Day022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day022" />
   </component>
   <component name="WindowStateProjectService">
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602575871719">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.23.1396.877@44.23.1396.877" timestamp="1602575871719" />
-    <state width="1354" height="226" key="GridCell.Tab.0.bottom" timestamp="1602660570460">
+    <state x="483" y="306" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602661074910">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1602660570460" />
-    <state width="1354" height="226" key="GridCell.Tab.0.center" timestamp="1602660570459">
+    <state x="483" y="306" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/44.23.1396.877@44.23.1396.877" timestamp="1602661074910" />
+    <state width="1354" height="226" key="GridCell.Tab.0.bottom" timestamp="1602747369964">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1602660570459" />
-    <state width="1354" height="226" key="GridCell.Tab.0.left" timestamp="1602660570459">
+    <state width="1354" height="226" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1602747369964" />
+    <state width="1354" height="226" key="GridCell.Tab.0.center" timestamp="1602747369963">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1602660570459" />
-    <state width="1354" height="226" key="GridCell.Tab.0.right" timestamp="1602660570460">
+    <state width="1354" height="226" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1602747369963" />
+    <state width="1354" height="226" key="GridCell.Tab.0.left" timestamp="1602747369962">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1602660570460" />
+    <state width="1354" height="226" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1602747369962" />
+    <state width="1354" height="226" key="GridCell.Tab.0.right" timestamp="1602747369964">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state width="1354" height="226" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1602747369964" />
     <state width="1354" height="226" key="GridCell.Tab.1.bottom" timestamp="1602483240204">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
@@ -267,10 +277,10 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="243" y="100" key="SettingsEditor/44.23.1396.877@44.23.1396.877" timestamp="1602411933238" />
-    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1602571210850">
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1602660659840">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1602571210850" />
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1602660659840" />
     <state x="298" y="115" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602574699089">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
@@ -287,9 +297,9 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="407" y="211" key="run.anything.popup/44.23.1396.877@44.23.1396.877" timestamp="1602554654981" />
-    <state x="407" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1602471146636">
+    <state x="407" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1602722344471">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state x="407" y="213" width="670" height="676" key="search.everywhere.popup/44.23.1396.877@44.23.1396.877" timestamp="1602471146636" />
+    <state x="407" y="213" width="670" height="676" key="search.everywhere.popup/44.23.1396.877@44.23.1396.877" timestamp="1602722344471" />
   </component>
 </project>
