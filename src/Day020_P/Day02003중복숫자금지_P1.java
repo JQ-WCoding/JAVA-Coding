@@ -14,12 +14,26 @@ public class Day02003중복숫자금지_P1 {
         int[] check = new int[5];
         int[] arr = new int[5];
 
-        int shuffle = 0;
-        while (shuffle < 1000){
-            int[] randomPoint = new int[0];
-
-            shuffle++;
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = random.nextInt(5);
+            for (int j = 0; j < i; j++) {
+                if (arr[i] == arr[j]) {
+                    i--;
+                }
+            }
         }
+        for (int j : arr) {
+            System.out.print(j + " ");
+        }
+        System.out.println();
+//        int shuffle = 0;
+//        while (shuffle < 1000) { // 로또 번호 섞기
+//            int r = random.nextInt(8);
+//            int temp = arr[0];
+//            arr[0] = arr[r];
+//            arr[r] = temp;
+//            shuffle++;
+    } // 셔플 완료
 
-    }
 }
+

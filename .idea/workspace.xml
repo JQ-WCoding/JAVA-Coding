@@ -16,16 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day023">
-      <change afterPath="$PROJECT_DIR$/src/Day020_P/Day02001영화관좌석예매_P2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day020_P/Day02002즉석복권_P1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day020_P/Day02003중복숫자금지_P1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day024_P/Day02401복습문제_P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day024_P/Day02402복습문제_P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day024_P/Day024쇼핑몰뒤로가기plus_P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day024_P/newShopping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelfWork/TvTest.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day024">
+      <change afterPath="$PROJECT_DIR$/src/Day020_P/Day02004값교체하기_P1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day020_P/Day02005MovingNumber_P1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day020_P/Day02006SavingMutipleP1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day020_P/Day02007MiniBingo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day021_P/Day02101RememberNumberP1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day021_P/Day02102Game1to4P1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day020_P/Day02003중복숫자금지_P1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day020_P/Day02003중복숫자금지_P1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +63,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.newShopping">
-    <configuration name="Day02001영화관좌석예매_P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day020_P.Day02001영화관좌석예매_P2" />
+  <component name="RunManager" selected="Application.Day02102Game1to4P1">
+    <configuration name="Day02005MovingNumber_P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day020_P.Day02005MovingNumber_P1" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02002즉석복권_P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day020_P.Day02002즉석복권_P1" />
+    <configuration name="Day02006SavingMutipleP1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day020_P.Day02006SavingMutipleP1" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02402복습문제_P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day024_P.Day02402복습문제_P" />
+    <configuration name="Day02007MiniBingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day020_P.Day02007MiniBingo" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day024_P.*" />
+          <option name="PATTERN" value="Day020_P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day024쇼핑몰뒤로가기plus_P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day024_P.Day024쇼핑몰뒤로가기plus_P" />
+    <configuration name="Day02101RememberNumberP1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day021_P.Day02101RememberNumberP1" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day024_P.*" />
+          <option name="PATTERN" value="Day021_P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="newShopping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day024_P.newShopping" />
+    <configuration name="Day02102Game1to4P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day021_P.Day02102Game1to4P1" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day024_P.*" />
+          <option name="PATTERN" value="Day021_P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.newShopping" />
-        <item itemvalue="Application.Day024쇼핑몰뒤로가기plus_P" />
-        <item itemvalue="Application.Day02002즉석복권_P1" />
-        <item itemvalue="Application.Day02001영화관좌석예매_P2" />
-        <item itemvalue="Application.Day02402복습문제_P" />
+        <item itemvalue="Application.Day02102Game1to4P1" />
+        <item itemvalue="Application.Day02101RememberNumberP1" />
+        <item itemvalue="Application.Day02007MiniBingo" />
+        <item itemvalue="Application.Day02006SavingMutipleP1" />
+        <item itemvalue="Application.Day02005MovingNumber_P1" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602747403299</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Day024">
+      <created>1602835626321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602835626321</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +245,8 @@
     <MESSAGE value="Day021" />
     <MESSAGE value="Day022" />
     <MESSAGE value="Day023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day023" />
+    <MESSAGE value="Day024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day024" />
   </component>
   <component name="WindowStateProjectService">
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602575871719">
@@ -250,22 +257,22 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="483" y="306" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/44.23.1396.877@44.23.1396.877" timestamp="1602661074910" />
-    <state width="1354" height="226" key="GridCell.Tab.0.bottom" timestamp="1602829368864">
+    <state width="1354" height="226" key="GridCell.Tab.0.bottom" timestamp="1603019593784">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1602829368864" />
-    <state width="1354" height="226" key="GridCell.Tab.0.center" timestamp="1602829368864">
+    <state width="1354" height="226" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1603019593784" />
+    <state width="1354" height="226" key="GridCell.Tab.0.center" timestamp="1603019593784">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1602829368864" />
-    <state width="1354" height="226" key="GridCell.Tab.0.left" timestamp="1602829368863">
+    <state width="1354" height="226" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1603019593784" />
+    <state width="1354" height="226" key="GridCell.Tab.0.left" timestamp="1603019593783">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1602829368863" />
-    <state width="1354" height="226" key="GridCell.Tab.0.right" timestamp="1602829368864">
+    <state width="1354" height="226" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1603019593783" />
+    <state width="1354" height="226" key="GridCell.Tab.0.right" timestamp="1603019593784">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="226" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1602829368864" />
+    <state width="1354" height="226" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1603019593784" />
     <state width="1354" height="226" key="GridCell.Tab.1.bottom" timestamp="1602483240204">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
@@ -286,10 +293,10 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="243" y="100" key="SettingsEditor/44.23.1396.877@44.23.1396.877" timestamp="1602411933238" />
-    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1602747405989">
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1602835629238">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1602747405989" />
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1602835629238" />
     <state x="298" y="115" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602574699089">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
