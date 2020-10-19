@@ -51,7 +51,6 @@ public class Day02005MovingNumber_P1 {
                     break;
                 default:
                     System.out.println("잘못 입력하였습니다.");
-                    break;
             }
             System.out.println("계속? 1) Go / 0) Out!");
             int check = scanner.nextInt();
