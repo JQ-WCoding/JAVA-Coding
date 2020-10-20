@@ -24,14 +24,20 @@ public class Day02603최대값구하기P {
         int[] arr = {11, 87, 42, 100, 24};
         int count = 0;
         while (true) {
+            int maxNum = 0;
+            int place = 0;
             System.out.println(Arrays.toString(arr));
             System.out.println("배열 내의 값을 입력하세요 : ");
             int myNum = scanner.nextInt();
             for (int i = 0; i < arr.length; i++) {
-                if (myNum == arr[i]) {
-                    arr[i] = 0;
-                    count++;
+                if (maxNum < arr[i]){
+                    maxNum = arr[i];
+                    place = i;
                 }
+            }
+            if (myNum == maxNum) {
+                arr[place] = 0;
+                count++;
             }
             if (count == 5) {
                 System.out.println("Success");

@@ -21,9 +21,7 @@ public class Day02602배열응용P {
         int[] temp = new int[5];
         System.out.println(Arrays.toString(arr)); // arr배열 한번 표현
         for (int i = 0; i < temp.length; i++) { // 5번의 기회
-            // int check = -1;
-
-            temp[i] = -1;
+            temp[i] = -1; // 같은 값이 없으면 for문에서 실행되는 것 없이 그대로 출력됨
             System.out.println((i + 1) + "번째 값을 입력하세요 : ");
             int myNumber = scanner.nextInt(); // 입력받기
             for (int j = 0; j < arr.length; j++) {
