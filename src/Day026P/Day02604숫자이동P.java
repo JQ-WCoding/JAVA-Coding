@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Day02604숫자이동P {
+    static void outMeant(){
+        System.out.println("이동이 불가능합니다");
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         /*
@@ -32,7 +35,7 @@ public class Day02604숫자이동P {
              */
             if (move == 1) { // 좌로 이동
                 if (where == 0) { // 나의 위치가 0이 아닐때 이동가능(좌측 이동 한에서)
-                    System.out.println("이동할 수 없습니다");
+                    outMeant();
                     continue;
                 }
                 if (game[where - 1] == 1) { // 바로 왼쪽 벽이 벽인 경우
@@ -68,7 +71,7 @@ public class Day02604숫자이동P {
                         game[where] = 2;
                     }
                 } else {
-                    System.out.println("더이상 이동할 수 없습니다");
+                    outMeant();
                 }
             } else {
                 System.out.println("[입력 오류]");
