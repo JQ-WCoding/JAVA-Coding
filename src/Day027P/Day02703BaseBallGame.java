@@ -33,8 +33,11 @@ public class Day02703BaseBallGame {
                     i--;
                 }
             }
-        } // for
-        System.out.println(Arrays.toString(com));
+        } // for 중복 처리
+        System.out.println(Arrays.toString(com)); // method
+//        for (int i = 0; i < com.length; i++) {
+//            System.out.print(com[i] + " ");
+//        }
         while (true) { // 게임 시작
             int strikeCount = 0;
             int ballCount = 0;

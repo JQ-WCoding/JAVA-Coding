@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Day02702Test2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //  call stack 1st floor
         Scanner scanner = new Scanner(System.in);
         int arr[] = {0, 2, 0, 3, 4, 0, 0, 5, 0}; // 9자리
         // 아래 번호를 입력받고 각방향 으로 0 이아닌숫자를 모으시요.
