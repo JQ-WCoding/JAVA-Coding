@@ -3,7 +3,11 @@ package Day028P;
 import java.util.Arrays;
 
 public class Alarm {
-    DBandActor db = new DBandActor();
+//    DBandActor db = new DBandActor();
+    int a;
+    int b;
+    int c;
+    
 
     public void loginAlarm() {
         System.out.println("[알림] 로그인 후 이용해주세요");
@@ -30,7 +34,7 @@ public class Alarm {
     }
 
     public void nowLogin() {
-        System.out.printf("[알림] %d 회원 로그인 중...%n", db.arId[db.log]);
+//        System.out.printf("[알림] %d 회원 로그인 중...%n", db.arId[db.log]);
     }
 
     public void cannotUseId() {
@@ -50,12 +54,12 @@ public class Alarm {
     }
 
     public void helloMeant() {
-        System.out.printf("%d 회원님 환영합니다", db.arId[db.log]);
+//        System.out.printf("%d 회원님 환영합니다", db.arId[db.log]);
     }
 
     public void logOutMeant() {
-        System.out.printf("[로그아웃] %d 회원 로그아웃...%n", db.arId[db.log]);
-        db.log = -1;
+//        System.out.printf("[로그아웃] %d 회원 로그아웃...%n", db.arId[db.log]);
+        DBandActor.log = -1;
     }
 
     public void howMuchMoney() {
@@ -67,17 +71,17 @@ public class Alarm {
     }
 
     public void leftMoney() {
-        System.out.printf("현재 %d 회원님의 잔액 : %d원 %n", db.arId[db.log], db.arMoney[db.log]); // Id와 현재 잔액 출력
+//        System.out.printf("현재 %d 회원님의 잔액 : %d원 %n", db.arId[db.log], db.arMoney[db.log]); // Id와 현재 잔액 출력
     }
-    public void arId() {
-        System.out.println(Arrays.toString(db.arId));
-    }
-
-    public void arPw() {
-        System.out.println(Arrays.toString(db.arPw));
+    public void arId(int[]arId) {
+        System.out.println(Arrays.toString(arId));
     }
 
-    public void arMoney() {
-        System.out.println(Arrays.toString(db.arMoney));
+    public void arPw(int[]arPw) {
+        System.out.println(Arrays.toString(arPw));
+    }
+
+    public void arMoney(int[]arMoney) {
+        System.out.println(Arrays.toString(arMoney));
     }
 }

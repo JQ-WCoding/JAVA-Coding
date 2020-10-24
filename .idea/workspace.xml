@@ -16,20 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="20/10/21">
-      <change afterPath="$PROJECT_DIR$/src/Day028P/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day028P/DBAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day028P/DBandActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day028P/Day028ATM5P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day028P/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day028P/SelectMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelfWork/ArrayUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelfWork/PrimitiveParamEx.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="20/10/22 ATM CHeck">
+      <change afterPath="$PROJECT_DIR$/src/ATM/ATMActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ATM/ATMMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ATM/ATMMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ATM/ATMuserDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day027P/Day02702Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day027P/Day02702Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day027P/Day02703BaseBallGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day027P/Day02703BaseBallGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelfWork/MethodReturnType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelfWork/MethodReturnType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelfWork/StringtoInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelfWork/StringtoInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day028P/Alarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day028P/Alarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day028P/DBandActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day028P/DBandActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day028P/Day028ATM5P.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day028P/Day028ATM5P.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,20 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Day028ATM5P">
+  <component name="RunManager" selected="Application.ATMMain">
+    <configuration name="ATMMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ATM.ATMMain" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ATM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SelfWork.ArrayUp" />
       <module name="Green_Practice" />
@@ -91,19 +99,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day028P.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodReturnType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SelfWork.MethodReturnType" />
-      <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SelfWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ATMMain" />
         <item itemvalue="Application.Day028ATM5P" />
         <item itemvalue="Application.PrimitiveParamEx" />
         <item itemvalue="Application.StringtoInteger" />
         <item itemvalue="Application.ArrayUp" />
-        <item itemvalue="Application.MethodReturnType" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603270103791</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="20/10/22 ATM CHeck">
+      <created>1603347316940</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603347316940</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,13 +302,18 @@
     <MESSAGE value="20/10/19" />
     <MESSAGE value="20/10/20" />
     <MESSAGE value="20/10/21" />
-    <option name="LAST_COMMIT_MESSAGE" value="20/10/21" />
+    <MESSAGE value="20/10/22 ATM CHeck" />
+    <option name="LAST_COMMIT_MESSAGE" value="20/10/22 ATM CHeck" />
   </component>
   <component name="WindowStateProjectService">
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602575871719">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.23.1396.877@44.23.1396.877" timestamp="1602575871719" />
+    <state x="795" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1603380045113">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state x="795" y="234" key="#com.intellij.ide.util.MemberChooser/44.23.1876.1057@44.23.1876.1057" timestamp="1603380045113" />
     <state x="751" y="448" width="462" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603293591580">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
@@ -319,26 +326,26 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="483" y="306" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/44.23.1396.877@44.23.1396.877" timestamp="1602661074910" />
-    <state width="1354" height="490" key="GridCell.Tab.0.bottom" timestamp="1603347061409">
+    <state width="1354" height="413" key="GridCell.Tab.0.bottom" timestamp="1603554109324">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="490" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1603347061409" />
-    <state width="1834" height="284" key="GridCell.Tab.0.bottom/44.23.1876.1057@44.23.1876.1057" timestamp="1603295492863" />
-    <state width="1354" height="490" key="GridCell.Tab.0.center" timestamp="1603347061408">
+    <state width="1354" height="413" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1603554109324" />
+    <state width="1834" height="517" key="GridCell.Tab.0.bottom/44.23.1876.1057@44.23.1876.1057" timestamp="1603375985975" />
+    <state width="1354" height="413" key="GridCell.Tab.0.center" timestamp="1603554109323">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="490" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1603347061408" />
-    <state width="1834" height="284" key="GridCell.Tab.0.center/44.23.1876.1057@44.23.1876.1057" timestamp="1603295492863" />
-    <state width="1354" height="490" key="GridCell.Tab.0.left" timestamp="1603347061408">
+    <state width="1354" height="413" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1603554109323" />
+    <state width="1834" height="517" key="GridCell.Tab.0.center/44.23.1876.1057@44.23.1876.1057" timestamp="1603375985975" />
+    <state width="1354" height="413" key="GridCell.Tab.0.left" timestamp="1603554109323">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="490" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1603347061408" />
-    <state width="1834" height="284" key="GridCell.Tab.0.left/44.23.1876.1057@44.23.1876.1057" timestamp="1603295492862" />
-    <state width="1354" height="490" key="GridCell.Tab.0.right" timestamp="1603347061408">
+    <state width="1354" height="413" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1603554109323" />
+    <state width="1834" height="517" key="GridCell.Tab.0.left/44.23.1876.1057@44.23.1876.1057" timestamp="1603375985974" />
+    <state width="1354" height="413" key="GridCell.Tab.0.right" timestamp="1603554109324">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="490" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1603347061408" />
-    <state width="1834" height="284" key="GridCell.Tab.0.right/44.23.1876.1057@44.23.1876.1057" timestamp="1603295492863" />
+    <state width="1354" height="413" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1603554109324" />
+    <state width="1834" height="517" key="GridCell.Tab.0.right/44.23.1876.1057@44.23.1876.1057" timestamp="1603375985975" />
     <state width="1354" height="226" key="GridCell.Tab.1.bottom" timestamp="1602483240204">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
@@ -359,15 +366,20 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="450" y="87" key="RollbackChangesDialog/44.23.1396.877@44.23.1396.877" timestamp="1603332269947" />
-    <state x="243" y="63" key="SettingsEditor" timestamp="1603338588427">
-      <screen x="44" y="23" width="1396" height="877" />
+    <state x="311" y="71" key="SettingsEditor" timestamp="1603378575170">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state x="243" y="63" key="SettingsEditor/44.23.1396.877@44.23.1396.877" timestamp="1603338588427" />
-    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1603270105695">
+    <state x="311" y="71" key="SettingsEditor/44.23.1876.1057@44.23.1876.1057" timestamp="1603378575170" />
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1603347319633">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1603270105695" />
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1603347319633" />
     <state x="444" y="233" key="Vcs.Push.Dialog.v2/44.23.1876.1057@44.23.1876.1057" timestamp="1603113993369" />
+    <state x="538" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603356257577">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state x="538" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/44.23.1396.877@44.23.1396.877" timestamp="1603356257577" />
     <state x="298" y="115" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602574699089">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
@@ -376,10 +388,10 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="144" y="123" width="1196" height="677" key="dock-window-1/44.23.1396.877@44.23.1396.877" timestamp="1603158165319" />
-    <state x="444" y="70" width="596" height="783" key="find.popup" timestamp="1602470405893">
+    <state x="444" y="70" width="596" height="783" key="find.popup" timestamp="1603357607754">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state x="444" y="70" width="596" height="783" key="find.popup/44.23.1396.877@44.23.1396.877" timestamp="1602470405893" />
+    <state x="444" y="70" width="596" height="783" key="find.popup/44.23.1396.877@44.23.1396.877" timestamp="1603357607754" />
     <state x="1823" y="129" key="new project wizard" timestamp="1601902517291">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
@@ -388,9 +400,9 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="407" y="211" key="run.anything.popup/44.23.1396.877@44.23.1396.877" timestamp="1602554654981" />
-    <state x="407" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1602815478266">
+    <state x="407" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1603551859318">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state x="407" y="213" width="670" height="676" key="search.everywhere.popup/44.23.1396.877@44.23.1396.877" timestamp="1602815478266" />
+    <state x="407" y="213" width="670" height="676" key="search.everywhere.popup/44.23.1396.877@44.23.1396.877" timestamp="1603551859318" />
   </component>
 </project>

@@ -3,8 +3,9 @@ package Day028P;
 import java.util.Scanner;
 
 public class DBandActor {
-    Scanner scanner = new Scanner(System.in);
     Alarm alarm = new Alarm();
+    SelectMenu menuSelect = new SelectMenu();
+    Scanner scanner = new Scanner(System.in);
 
     int max = 5;
     int[] arId = new int[max];
@@ -12,11 +13,10 @@ public class DBandActor {
     int[] arMoney = new int[max];
 
     int count = 0;
-    int log = -1;
+    static int log = -1; // how to ? -1  arId[Index] -> log = Index;
 
     public void signUp() {
         if (log != -1) {
-            Alarm alarm = new Alarm();
             int check = 1;
             while (true) {
                 if (count == 5) {
@@ -96,13 +96,12 @@ public class DBandActor {
         }
         if (check != -1) {
             return log;
-        }
-        else {
+        } else {
             return -1; // 로그인 실패
         }
     }
 
-    public void depositAccount(){
+    public void depositAccount() {
         if (log != -1) {
             alarm.howMuchMoney();
             int myMoney = scanner.nextInt();
@@ -116,7 +115,7 @@ public class DBandActor {
         }
     }
 
-    public void transferMoney(){
+    public void transferMoney() {
         if (log != -1) {
             System.out.print("이치할"); // 귀찮아서..;;
             alarm.signUpId();
@@ -143,11 +142,57 @@ public class DBandActor {
             alarm.loginAlarm();
         }
     }
-    public void lookUpAccount(){
+
+    public void lookUpAccount() {
         if (log != -1) {
             alarm.leftMoney();
         } else {
             alarm.loginAlarm();
         }
     }
+
+    public void init() {
+        while (true) {
+            /*
+            확인을 위한 출력
+             */
+            alarm.arId(arId);
+            alarm.arPw(arPw);
+            alarm.arMoney(arMoney);
+            Menu.fistMenu();
+
+            int choice = menuSelect.choice(); // choice 입력
+            /*
+            선택에 따른 행동 방식
+             */
+            if (choice == 1) { // 회원가입
+                signUp();
+            } else if (choice == 2) { // 회원탈퇴
+                signOut();
+            } else if (choice == 3) { // 로그인
+                loginSystem();
+                if (log != -1) {
+                    alarm.helloMeant();
+                } else {
+                    alarm.errorInsert();
+                }
+            } else if (choice == 4) { // 로그아웃
+                if (log != -1) {
+                    alarm.logOutMeant();
+                } else {
+                    alarm.loginAlarm();
+                }
+            } else if (choice == 5) { // 입금
+                depositAccount();
+            } else if (choice == 6) { // 이체
+                transferMoney();
+            } else if (choice == 7) { // 잔액조회
+                lookUpAccount();
+            } else if (choice == 0) { // 종료
+                alarm.programOff();
+                break;
+            }
+        }
+    }
+
 }
