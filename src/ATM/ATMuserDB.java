@@ -11,7 +11,7 @@ public class ATMuserDB {
     }
     // cmd + n constructor
     public ATMuserDB(int id, int pw, int money) {
-        this.id = id;
+        setId(id); // 수정본
         this.pw = pw;
         this.money = money;
     }

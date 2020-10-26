@@ -12,7 +12,7 @@ public class ATMActor {
 
     public ATMActor() {
         this.log = -1;
-        this.count = 0;
+        this.count = 0; // 5까지밖에 안올라갈거임
         this.atmUserDBS = new ATMuserDB[5];
     }
 //    public int max = 5;
@@ -65,7 +65,7 @@ public class ATMActor {
                     break;
                 }
                 message.insertId();
-                int myId = scanner.nextInt();
+                int myId = scanner.nextInt(); // 아이디 입력
                 message.insertPw();
                 int myPw = scanner.nextInt();
                 if (myId >= 1000 && myId < 10000 && myPw >= 1000 && myPw < 10000) {
@@ -76,7 +76,14 @@ public class ATMActor {
                         }
                     }
                     if (check != -1) {
-                        atmUserDBS[count] = new ATMuserDB(myId, myPw, 1000);
+                        atmUserDBS[count] = new ATMuserDB(myId, myPw, 1000); // 생성자라고 만든 그 틀에 맞게 생성자에 매개변수를 넣어서 초기화 해야지  // set
+                        // count = 0
+                        // 생성자의 중요 역할 : 객체를 생성하는 것
+                        // 값을 넣는 것이 중요한게 아니라 객체를 생성해서 객체부터 만들어야하는 것
+                        // 객체는 생성해야지만 클래스가 객체가 되어 사용이 가능하다
+//                        atmUserDBS[count].setId(myId); // 각 count index내에는 빈공간(객체가 없어 / null) 생성을 아직 하지 않았기 때문에
+//                        atmUserDBS[count].setPw(myPw);
+//                        atmUserDBS[count].setMoney(1000);
                         count++; // 현재 아이디의 개수
                         break; // 완벽히 입력이 완료되어 저장되면 반복문 탈출
                     } else {
@@ -156,7 +163,7 @@ public class ATMActor {
             message.howMuchMoney();
             int myMoney = scanner.nextInt();
             if (myMoney > 0) {
-                atmUserDBS[log].setMoney(atmUserDBS[log].getMoney() + myMoney);
+                atmUserDBS[log].setMoney(atmUserDBS[log].getMoney() + myMoney); // log 0 객체 만큼은 사용이 가능해서 오류가 안난거야
             } else {
                 message.cannotUse();
             }
@@ -198,5 +205,5 @@ public class ATMActor {
         } else {
             message.cannotUse();
         }
-    }
+    } // 잔액조회
 }
