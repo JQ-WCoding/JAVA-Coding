@@ -16,25 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="20/10/26 ArrayAddress">
-      <change afterPath="$PROJECT_DIR$/src/Day030P/Day030012차원배열이론P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day030P/Day030022차원배열.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day030P/Day030032차배열기본1P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day030P/Day030042차배기본2P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day030P/Day030052차배열기본3P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day031P/Day031관리비P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day031P/Day031사다리P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day032P/Day03201문자열입력P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day032P/Day03202문자열비교P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day032P/Day03203문자열정렬P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day032P/Day03204장바구니P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day032P/Day03205쇼핑몰관리자P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day033P/Day03301당첨복권P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day033P/Day03302중복안된숫자제거.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day033P/Day03303소수찾기P.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayAddress/AddressActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayAddress/AddressActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayAddress/ArrayDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayAddress/ArrayDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day033P/Day03302중복안된숫자제거.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day033P/Day03302중복안된숫자제거.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +60,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Day03303소수찾기P">
+  <component name="RunManager" selected="Application.Day03302중복안된숫자제거">
     <configuration name="Day031사다리P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day031P.Day031사다리P" />
       <module name="Green_Practice" />
@@ -157,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day03303소수찾기P" />
         <item itemvalue="Application.Day03302중복안된숫자제거" />
+        <item itemvalue="Application.Day03303소수찾기P" />
         <item itemvalue="Application.Day03301당첨복권P" />
         <item itemvalue="Application.Day03205쇼핑몰관리자P" />
         <item itemvalue="Application.Day03204장바구니P" />
@@ -300,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603690342509</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Array">
+      <created>1604025878002</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604025878002</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +333,8 @@
     <MESSAGE value="20/10/22 ATM CHeck" />
     <MESSAGE value="20/10/25 ATM success" />
     <MESSAGE value="20/10/26 ArrayAddress" />
-    <option name="LAST_COMMIT_MESSAGE" value="20/10/26 ArrayAddress" />
+    <MESSAGE value="Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array" />
   </component>
   <component name="WindowStateProjectService">
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602575871719">
@@ -366,25 +358,25 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="483" y="306" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/44.23.1396.877@44.23.1396.877" timestamp="1602661074910" />
-    <state width="1354" height="265" key="GridCell.Tab.0.bottom" timestamp="1604025714621">
+    <state width="1354" height="265" key="GridCell.Tab.0.bottom" timestamp="1604062560643">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="265" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1604025714621" />
+    <state width="1354" height="265" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1604062560643" />
     <state width="1834" height="334" key="GridCell.Tab.0.bottom/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696768" />
-    <state width="1354" height="265" key="GridCell.Tab.0.center" timestamp="1604025714620">
+    <state width="1354" height="265" key="GridCell.Tab.0.center" timestamp="1604062560636">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="265" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1604025714620" />
+    <state width="1354" height="265" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1604062560636" />
     <state width="1834" height="334" key="GridCell.Tab.0.center/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696767" />
-    <state width="1354" height="265" key="GridCell.Tab.0.left" timestamp="1604025714620">
+    <state width="1354" height="265" key="GridCell.Tab.0.left" timestamp="1604062560636">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="265" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1604025714620" />
+    <state width="1354" height="265" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1604062560636" />
     <state width="1834" height="334" key="GridCell.Tab.0.left/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696767" />
-    <state width="1354" height="265" key="GridCell.Tab.0.right" timestamp="1604025714621">
+    <state width="1354" height="265" key="GridCell.Tab.0.right" timestamp="1604062560642">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="265" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1604025714621" />
+    <state width="1354" height="265" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1604062560642" />
     <state width="1834" height="334" key="GridCell.Tab.0.right/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696768" />
     <state width="1354" height="226" key="GridCell.Tab.1.bottom" timestamp="1602483240204">
       <screen x="44" y="23" width="1396" height="877" />
@@ -411,10 +403,10 @@
     </state>
     <state x="243" y="63" key="SettingsEditor/44.23.1396.877@44.23.1396.877" timestamp="1603338588427" />
     <state x="311" y="71" key="SettingsEditor/44.23.1876.1057@44.23.1876.1057" timestamp="1603378575170" />
-    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1603690345237">
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1604025880259">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1603690345237" />
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1604025880259" />
     <state x="444" y="233" key="Vcs.Push.Dialog.v2/44.23.1876.1057@44.23.1876.1057" timestamp="1603113993369" />
     <state x="538" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603356257577">
       <screen x="44" y="23" width="1396" height="877" />
