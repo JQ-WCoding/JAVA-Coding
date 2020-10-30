@@ -16,22 +16,25 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="20/10/25 ATM success">
-      <change afterPath="$PROJECT_DIR$/src/ArrayAddress/AddressActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayAddress/AddressMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayAddress/ArrayDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayAddress/ArrayMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day029P/Day02901내림차순정렬P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day029P/Day02902석차출력P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day029P/Day02903배열의주소개념.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day029P/Day02904배열컨트롤러2단계백터P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day029P/Day02905주소이론.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day029P/Day02906주소이론2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day029P/Day02908주소이론4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelfWork/ArrayO.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="20/10/26 ArrayAddress">
+      <change afterPath="$PROJECT_DIR$/src/Day030P/Day030012차원배열이론P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day030P/Day030022차원배열.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day030P/Day030032차배열기본1P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day030P/Day030042차배기본2P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day030P/Day030052차배열기본3P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day031P/Day031관리비P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day031P/Day031사다리P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day032P/Day03201문자열입력P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day032P/Day03202문자열비교P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day032P/Day03203문자열정렬P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day032P/Day03204장바구니P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day032P/Day03205쇼핑몰관리자P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day033P/Day03301당첨복권P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day033P/Day03302중복안된숫자제거.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day033P/Day03303소수찾기P.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ATM/ATMActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATM/ATMActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ATM/ATMuserDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATM/ATMuserDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayAddress/AddressActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayAddress/AddressActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayAddress/ArrayDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayAddress/ArrayDB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +76,13 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Day02902석차출력P">
-    <configuration name="AddressMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayAddress.AddressMain" />
+  <component name="RunManager" selected="Application.Day03303소수찾기P">
+    <configuration name="Day031사다리P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day031P.Day031사다리P" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayAddress.*" />
+          <option name="PATTERN" value="Day031P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02901내림차순정렬P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day029P.Day02901내림차순정렬P" />
+    <configuration name="Day03204장바구니P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day032P.Day03204장바구니P" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day029P.*" />
+          <option name="PATTERN" value="Day032P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02902석차출력P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day029P.Day02902석차출력P" />
+    <configuration name="Day03205쇼핑몰관리자P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day032P.Day03205쇼핑몰관리자P" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day029P.*" />
+          <option name="PATTERN" value="Day032P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02903배열의주소개념" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day029P.Day02903배열의주소개념" />
+    <configuration name="Day03301당첨복권P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day033P.Day03301당첨복권P" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day029P.*" />
+          <option name="PATTERN" value="Day033P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +129,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02908주소이론4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day029P.Day02908주소이론4" />
+    <configuration name="Day03302중복안된숫자제거" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day033P.Day03302중복안된숫자제거" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day029P.*" />
+          <option name="PATTERN" value="Day033P.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day03303소수찾기P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day033P.Day03303소수찾기P" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day033P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day02902석차출력P" />
-        <item itemvalue="Application.AddressMain" />
-        <item itemvalue="Application.Day02908주소이론4" />
-        <item itemvalue="Application.Day02901내림차순정렬P" />
-        <item itemvalue="Application.Day02903배열의주소개념" />
+        <item itemvalue="Application.Day03303소수찾기P" />
+        <item itemvalue="Application.Day03302중복안된숫자제거" />
+        <item itemvalue="Application.Day03301당첨복권P" />
+        <item itemvalue="Application.Day03205쇼핑몰관리자P" />
+        <item itemvalue="Application.Day03204장바구니P" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603554255970</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="20/10/26 ArrayAddress">
+      <created>1603690342509</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603690342509</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,17 +341,18 @@
     <MESSAGE value="20/10/21" />
     <MESSAGE value="20/10/22 ATM CHeck" />
     <MESSAGE value="20/10/25 ATM success" />
-    <option name="LAST_COMMIT_MESSAGE" value="20/10/25 ATM success" />
+    <MESSAGE value="20/10/26 ArrayAddress" />
+    <option name="LAST_COMMIT_MESSAGE" value="20/10/26 ArrayAddress" />
   </component>
   <component name="WindowStateProjectService">
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602575871719">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.23.1396.877@44.23.1396.877" timestamp="1602575871719" />
-    <state x="603" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1603682157768">
+    <state x="603" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1603690370551">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state x="603" y="198" key="#com.intellij.ide.util.MemberChooser/44.23.1396.877@44.23.1396.877" timestamp="1603682157768" />
+    <state x="603" y="198" key="#com.intellij.ide.util.MemberChooser/44.23.1396.877@44.23.1396.877" timestamp="1603690370551" />
     <state x="795" y="234" key="#com.intellij.ide.util.MemberChooser/44.23.1876.1057@44.23.1876.1057" timestamp="1603380045113" />
     <state x="751" y="448" width="462" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603293591580">
       <screen x="44" y="23" width="1876" height="1057" />
@@ -342,25 +366,25 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="483" y="306" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/44.23.1396.877@44.23.1396.877" timestamp="1602661074910" />
-    <state width="1354" height="265" key="GridCell.Tab.0.bottom" timestamp="1603690097702">
+    <state width="1354" height="265" key="GridCell.Tab.0.bottom" timestamp="1604025714621">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="265" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1603690097702" />
+    <state width="1354" height="265" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1604025714621" />
     <state width="1834" height="334" key="GridCell.Tab.0.bottom/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696768" />
-    <state width="1354" height="265" key="GridCell.Tab.0.center" timestamp="1603690097701">
+    <state width="1354" height="265" key="GridCell.Tab.0.center" timestamp="1604025714620">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="265" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1603690097701" />
+    <state width="1354" height="265" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1604025714620" />
     <state width="1834" height="334" key="GridCell.Tab.0.center/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696767" />
-    <state width="1354" height="265" key="GridCell.Tab.0.left" timestamp="1603690097701">
+    <state width="1354" height="265" key="GridCell.Tab.0.left" timestamp="1604025714620">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="265" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1603690097701" />
+    <state width="1354" height="265" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1604025714620" />
     <state width="1834" height="334" key="GridCell.Tab.0.left/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696767" />
-    <state width="1354" height="265" key="GridCell.Tab.0.right" timestamp="1603690097701">
+    <state width="1354" height="265" key="GridCell.Tab.0.right" timestamp="1604025714621">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state width="1354" height="265" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1603690097701" />
+    <state width="1354" height="265" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1604025714621" />
     <state width="1834" height="334" key="GridCell.Tab.0.right/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696768" />
     <state width="1354" height="226" key="GridCell.Tab.1.bottom" timestamp="1602483240204">
       <screen x="44" y="23" width="1396" height="877" />
@@ -387,10 +411,10 @@
     </state>
     <state x="243" y="63" key="SettingsEditor/44.23.1396.877@44.23.1396.877" timestamp="1603338588427" />
     <state x="311" y="71" key="SettingsEditor/44.23.1876.1057@44.23.1876.1057" timestamp="1603378575170" />
-    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1603554258811">
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2" timestamp="1603690345237">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
-    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1603554258811" />
+    <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1603690345237" />
     <state x="444" y="233" key="Vcs.Push.Dialog.v2/44.23.1876.1057@44.23.1876.1057" timestamp="1603113993369" />
     <state x="538" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603356257577">
       <screen x="44" y="23" width="1396" height="877" />
@@ -409,10 +433,11 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="444" y="70" width="596" height="783" key="find.popup/44.23.1396.877@44.23.1396.877" timestamp="1603357607754" />
-    <state x="1823" y="129" key="new project wizard" timestamp="1601902517291">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="322" y="55" key="new project wizard" timestamp="1603759979253">
+      <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="1823" y="129" key="new project wizard/44.23.1396.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1601902517291" />
+    <state x="322" y="55" key="new project wizard/44.23.1396.877@44.23.1396.877" timestamp="1603759979253" />
     <state x="407" y="211" key="run.anything.popup" timestamp="1602554654981">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
