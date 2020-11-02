@@ -2,6 +2,10 @@ package Day033P;
 
 import java.util.Arrays;
 
+/**
+ *
+ * @author jun_q
+ */
 public class Day03302중복안된숫자제거 {
     public int[] test1 = {1, 2, 3, 2, 1};
     public int[] test2 = {1, 3, 4, 4, 2};

@@ -39,7 +39,7 @@ public class Day031사다리P {
             else if (ladder[verticalIndex][myLadder] == 2) {
                 myLadder--; // -1 moving
             }
-            System.out.println(ladder[verticalIndex][myLadder]);
+//            System.out.println(ladder[verticalIndex][myLadder]); // 확인용
             verticalIndex++;
         }
         System.out.println(menu[myLadder]);

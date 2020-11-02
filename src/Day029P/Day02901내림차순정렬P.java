@@ -19,17 +19,15 @@ public class Day02901내림차순정렬P {
 
         int[] score = {10, 50, 30, 40, 80, 7};
 
-        int index = 0;
         int temp;
         for (int j = 0; j < score.length; j++) {
-            for (int i = index; i < score.length; i++) {
-                if (score[index] < score[i]) {
-                    temp = score[index];
-                    score[index] = score[i];
+            for (int i = j; i < score.length; i++) {
+                if (score[j] < score[i]) {
+                    temp = score[j];
+                    score[j] = score[i];
                     score[i] = temp;
                 }
             }
-            index++;
         }
         System.out.println(Arrays.toString(score));
     }
