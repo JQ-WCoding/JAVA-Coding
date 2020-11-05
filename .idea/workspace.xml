@@ -16,8 +16,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day034">
-      <change afterPath="$PROJECT_DIR$/src/Day035P/Day03501오목P.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day035">
+      <change afterPath="$PROJECT_DIR$/src/Day036P/Day03601문자열SelfTestP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day036P/Day03601문자열기본P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day036P/Day03602형변환P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day036P/Day03603주민등록번호검사P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day036P/Day036배열테스트1P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day036P/Day036배열테스트2P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day036P/Day036배열테스트3P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day036P/Day036배열테스트4P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day037P/Day03701문자열1차원P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day037P/Day03702문자열2차원1P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day037P/Day03702문자열2차원2P.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day037P/Day03703끝말잇기P.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,15 +69,15 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.Day03501오목P">
-    <configuration name="Day0030401MiddleNumberP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day034P.Day0030401MiddleNumberP" />
+  <component name="RunManager" selected="Application.Day03601문자열SelfTestP">
+    <configuration name="Day03601문자열SelfTestP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day036P.Day03601문자열SelfTestP" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day034P.*" />
+          <option name="PATTERN" value="Day036P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03402빙고2P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day034P.Day03402빙고2P" />
+    <configuration name="Day03701문자열1차원P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day037P.Day03701문자열1차원P" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day034P.*" />
+          <option name="PATTERN" value="Day037P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03402빙고P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day034P.Day03402빙고P" />
+    <configuration name="Day03702문자열2차원1P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day037P.Day03702문자열2차원1P" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day034P.*" />
+          <option name="PATTERN" value="Day037P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03403소코반P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day034P.Day03403소코반P" />
+    <configuration name="Day03702문자열2차원2P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day037P.Day03702문자열2차원2P" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day034P.*" />
+          <option name="PATTERN" value="Day037P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03501오목P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day035P.Day03501오목P" />
+    <configuration name="Day03703끝말잇기P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day037P.Day03703끝말잇기P" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day035P.*" />
+          <option name="PATTERN" value="Day037P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day03501오목P" />
-        <item itemvalue="Application.Day03403소코반P" />
-        <item itemvalue="Application.Day03402빙고2P" />
-        <item itemvalue="Application.Day03402빙고P" />
-        <item itemvalue="Application.Day0030401MiddleNumberP" />
+        <item itemvalue="Application.Day03601문자열SelfTestP" />
+        <item itemvalue="Application.Day03703끝말잇기P" />
+        <item itemvalue="Application.Day03702문자열2차원2P" />
+        <item itemvalue="Application.Day03702문자열2차원1P" />
+        <item itemvalue="Application.Day03701문자열1차원P" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604324684864</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Day035">
+      <created>1604373912900</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604373912900</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,9 +355,14 @@
     <MESSAGE value="Array" />
     <MESSAGE value="delete array" />
     <MESSAGE value="Day034" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day034" />
+    <MESSAGE value="Day035" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day035" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="0" width="890" height="900" key="#Java" timestamp="1604537349079">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" width="890" height="900" key="#Java/0.0.1440.900@0.0.1440.900" timestamp="1604537349079" />
     <state x="206" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602575871719">
       <screen x="44" y="23" width="1396" height="877" />
     </state>
@@ -361,63 +384,63 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="483" y="306" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/44.23.1396.877@44.23.1396.877" timestamp="1602661074910" />
-    <state width="1398" height="586" key="GridCell.Tab.0.bottom" timestamp="1604373793929">
+    <state width="1398" height="398" key="GridCell.Tab.0.bottom" timestamp="1604543297616">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="586" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604373793929" />
+    <state width="1398" height="398" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604543297616" />
     <state width="1357" height="280" key="GridCell.Tab.0.bottom/41.23.1399.877@41.23.1399.877" timestamp="1604307724945" />
     <state width="898" height="352" key="GridCell.Tab.0.bottom/41.23.1879.1057@41.23.1879.1057" timestamp="1604235650074" />
     <state width="1354" height="280" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1604148836059" />
     <state width="1834" height="334" key="GridCell.Tab.0.bottom/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696768" />
-    <state width="1398" height="586" key="GridCell.Tab.0.center" timestamp="1604373793928">
+    <state width="1398" height="398" key="GridCell.Tab.0.center" timestamp="1604543297615">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="586" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604373793928" />
+    <state width="1398" height="398" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604543297615" />
     <state width="1357" height="280" key="GridCell.Tab.0.center/41.23.1399.877@41.23.1399.877" timestamp="1604307724945" />
     <state width="898" height="352" key="GridCell.Tab.0.center/41.23.1879.1057@41.23.1879.1057" timestamp="1604235650073" />
     <state width="1354" height="280" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1604148836058" />
     <state width="1834" height="334" key="GridCell.Tab.0.center/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696767" />
-    <state width="1398" height="586" key="GridCell.Tab.0.left" timestamp="1604373793927">
+    <state width="1398" height="398" key="GridCell.Tab.0.left" timestamp="1604543297614">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="586" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604373793927" />
+    <state width="1398" height="398" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604543297614" />
     <state width="1357" height="280" key="GridCell.Tab.0.left/41.23.1399.877@41.23.1399.877" timestamp="1604307724945" />
     <state width="898" height="352" key="GridCell.Tab.0.left/41.23.1879.1057@41.23.1879.1057" timestamp="1604235650073" />
     <state width="1354" height="280" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1604148836058" />
     <state width="1834" height="334" key="GridCell.Tab.0.left/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696767" />
-    <state width="1398" height="586" key="GridCell.Tab.0.right" timestamp="1604373793929">
+    <state width="1398" height="398" key="GridCell.Tab.0.right" timestamp="1604543297616">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="586" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604373793929" />
+    <state width="1398" height="398" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604543297616" />
     <state width="1357" height="280" key="GridCell.Tab.0.right/41.23.1399.877@41.23.1399.877" timestamp="1604307724945" />
     <state width="898" height="352" key="GridCell.Tab.0.right/41.23.1879.1057@41.23.1879.1057" timestamp="1604235650073" />
     <state width="1354" height="280" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1604148836059" />
     <state width="1834" height="334" key="GridCell.Tab.0.right/44.23.1876.1057@44.23.1876.1057" timestamp="1603612696768" />
-    <state width="1398" height="586" key="GridCell.Tab.1.bottom" timestamp="1604373793931">
+    <state width="1398" height="398" key="GridCell.Tab.1.bottom" timestamp="1604543297619">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="586" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604373793931" />
+    <state width="1398" height="398" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604543297619" />
     <state width="1357" height="280" key="GridCell.Tab.1.bottom/41.23.1399.877@41.23.1399.877" timestamp="1604307724946" />
     <state width="898" height="352" key="GridCell.Tab.1.bottom/41.23.1879.1057@41.23.1879.1057" timestamp="1604235650075" />
     <state width="1354" height="280" key="GridCell.Tab.1.bottom/44.23.1396.877@44.23.1396.877" timestamp="1604148836060" />
-    <state width="1398" height="586" key="GridCell.Tab.1.center" timestamp="1604373793930">
+    <state width="1398" height="398" key="GridCell.Tab.1.center" timestamp="1604543297617">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="586" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1604373793930" />
+    <state width="1398" height="398" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1604543297617" />
     <state width="1357" height="280" key="GridCell.Tab.1.center/41.23.1399.877@41.23.1399.877" timestamp="1604307724945" />
     <state width="898" height="352" key="GridCell.Tab.1.center/41.23.1879.1057@41.23.1879.1057" timestamp="1604235650074" />
     <state width="1354" height="280" key="GridCell.Tab.1.center/44.23.1396.877@44.23.1396.877" timestamp="1604148836059" />
-    <state width="1398" height="586" key="GridCell.Tab.1.left" timestamp="1604373793930">
+    <state width="1398" height="398" key="GridCell.Tab.1.left" timestamp="1604543297617">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="586" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1604373793930" />
+    <state width="1398" height="398" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1604543297617" />
     <state width="1357" height="280" key="GridCell.Tab.1.left/41.23.1399.877@41.23.1399.877" timestamp="1604307724945" />
     <state width="898" height="352" key="GridCell.Tab.1.left/41.23.1879.1057@41.23.1879.1057" timestamp="1604235650074" />
     <state width="1354" height="280" key="GridCell.Tab.1.left/44.23.1396.877@44.23.1396.877" timestamp="1604148836059" />
-    <state width="1398" height="586" key="GridCell.Tab.1.right" timestamp="1604373793931">
+    <state width="1398" height="398" key="GridCell.Tab.1.right" timestamp="1604543297618">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="586" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1604373793931" />
+    <state width="1398" height="398" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1604543297618" />
     <state width="1357" height="280" key="GridCell.Tab.1.right/41.23.1399.877@41.23.1399.877" timestamp="1604307724945" />
     <state width="898" height="352" key="GridCell.Tab.1.right/41.23.1879.1057@41.23.1879.1057" timestamp="1604235650074" />
     <state width="1354" height="280" key="GridCell.Tab.1.right/44.23.1396.877@44.23.1396.877" timestamp="1604148836059" />
@@ -425,15 +448,17 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="450" y="87" key="RollbackChangesDialog/44.23.1396.877@44.23.1396.877" timestamp="1603332269947" />
-    <state x="240" y="63" key="SettingsEditor" timestamp="1604283517862">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state x="205" y="41" key="SettingsEditor" timestamp="1604537497049">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="205" y="41" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604537497049" />
     <state x="240" y="63" key="SettingsEditor/41.23.1399.877@41.23.1399.877" timestamp="1604283517862" />
     <state x="243" y="63" key="SettingsEditor/44.23.1396.877@44.23.1396.877" timestamp="1603338588427" />
     <state x="311" y="71" key="SettingsEditor/44.23.1876.1057@44.23.1876.1057" timestamp="1603378575170" />
-    <state x="340" y="197" key="Vcs.Push.Dialog.v2" timestamp="1604324687363">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state x="308" y="179" key="Vcs.Push.Dialog.v2" timestamp="1604373916301">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="308" y="179" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604373916301" />
     <state x="340" y="197" key="Vcs.Push.Dialog.v2/41.23.1399.877@41.23.1399.877" timestamp="1604324687363" />
     <state x="342" y="197" key="Vcs.Push.Dialog.v2/44.23.1396.877@44.23.1396.877" timestamp="1604063026790" />
     <state x="444" y="233" key="Vcs.Push.Dialog.v2/44.23.1876.1057@44.23.1876.1057" timestamp="1603113993369" />
@@ -463,9 +488,10 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="407" y="211" key="run.anything.popup/44.23.1396.877@44.23.1396.877" timestamp="1602554654981" />
-    <state x="405" y="213" width="672" height="676" key="search.everywhere.popup" timestamp="1604298090114">
-      <screen x="41" y="23" width="1399" height="877" />
+    <state x="375" y="195" width="692" height="694" key="search.everywhere.popup" timestamp="1604469157500">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="375" y="195" width="692" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604469157500" />
     <state x="405" y="213" width="672" height="676" key="search.everywhere.popup/41.23.1399.877@41.23.1399.877" timestamp="1604298090114" />
     <state x="407" y="213" width="670" height="676" key="search.everywhere.popup/44.23.1396.877@44.23.1396.877" timestamp="1603551859318" />
   </component>
