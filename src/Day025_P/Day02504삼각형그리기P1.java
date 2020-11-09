@@ -1,25 +1,13 @@
 package Day025_P;
 
-public class Day02504MakingHashTag {
+public class Day02504삼각형그리기P1 {
     public static void main(String[] args) {
-        // 2차원
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                System.out.print("#");
-            }
-            System.out.println();
-        }
-        System.out.println();
-        // 1차원
-        for (int i = 0; i < 16; i++) {
-            System.out.print("#");
-            if (i % 4 == 3) {
-                System.out.println();
-            }
-        }
-        System.out.println();
-
-        // Q2)
+        /*
+         * 문제 1)
+         * #
+         * ##
+         * ###
+         */
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j <= i; j++) {
                 System.out.print("#");
@@ -27,35 +15,51 @@ public class Day02504MakingHashTag {
             System.out.println();
         }
         System.out.println();
-
-        // Q3)
+        /*
+         * 문제 2)
+         * ###
+         * ##
+         * #
+         */
+        for (int i = 0; i < 3; i++) {
+            for (int j = 3 - i; j > 0; j--) {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        /*
+         * 문제 3)
+         * @##
+         * @@#
+         * @@@
+         */
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                if (j > i) {
+                if (i < j) {
                     System.out.print("#");
                 } else {
                     System.out.print("@");
                 }
             }
-            // j > i #
             System.out.println();
         }
         System.out.println();
-        // Q4)
+        /*
+         * 문제 4)
+         * @@#
+         * @###
+         * #####
+         */
         for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 5; j++) {
+            for (int j = 0; j < 3 + i; j++) {
                 if (i + j < 2) {
                     System.out.print("@");
-                } else if (i + j > 1) {
-                    if (j - i == 3) {
-                        break;
-                    }
+                } else {
                     System.out.print("#");
                 }
             }
             System.out.println();
         }
-
-
     }
 }

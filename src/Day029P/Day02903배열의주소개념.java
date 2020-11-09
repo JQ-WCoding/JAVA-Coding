@@ -4,7 +4,7 @@ public class Day02903배열의주소개념 {
     public static void main(String[] args) {
         int[] arr = {87, 100, 24, 11, 79};
 
-        int[] temp = arr;
+        int[] temp = arr;  // 주소를 복사
         temp[1] = 0;
 
         for (int i = 0; i < 5; i++) {

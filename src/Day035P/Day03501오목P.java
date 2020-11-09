@@ -9,9 +9,10 @@ import java.util.Scanner;
  */
 
 public class Day03501오목P {
-    static int check = -1;
-    int size = 10;
-    int[][] omok = new int[size][size];
+    final int SIZE = 10;
+    static final int incomplete = -1;
+    static int check = incomplete;
+    int[][] omok = new int[SIZE][SIZE];
 
     /**
      * 해당턴의 플레이어 바둑알 두기
@@ -30,16 +31,28 @@ public class Day03501오목P {
                 continue;
             }
             // 정상적인 작동
-            if (omok[myXIndex][myYIndex] != 0) { // 돌이 없는 경우
-                System.out.println("이미 돌이 있습니다");
+//            if (omok[myXIndex][myYIndex] != 0) { // 돌이 없는 경우
+//                System.out.println("이미 돌이 있습니다");
+//                continue;
+//            }
+            if (IsEmpty(myXIndex, myYIndex))
                 continue;
-            }
             omok[myXIndex][myYIndex] = playerTurn;
             // 승리 판별
             if (winnerCheck(playerTurn) == playerTurn) {
                 System.out.println(playerTurn + "P 승리");
             }
             break;
+        }
+    }
+
+    //돌이 놓여저있는지 체크하는 함수메소드
+    public boolean IsEmpty(int x, int y) {
+        if (omok[x][y] != 0) {
+            return false;
+        } else {
+            System.out.println("이미 돌이 있습니다");
+            return true;
         }
     }
 
@@ -51,10 +64,10 @@ public class Day03501오목P {
      * 총 연속된 5알이 확인되면 승자 출력
      */
     public int winnerCheck(int playerStone) { // 승자 체크
-        int inCheck = -1;
-        int index1 = -1, index2 = -1; //
-        for (int i = 0; i < size; i++) {
-            for (int j = 0; j < size; j++) {
+        int inCheck = incomplete;
+        int index1 = incomplete, index2 = incomplete; //
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
                 if (omok[i][j] == playerStone) {
                     index1 = i;
                     index2 = j;
@@ -62,7 +75,7 @@ public class Day03501오목P {
                     break;
                 }
             }
-            if (inCheck != -1) {
+            if (inCheck != incomplete) {
                 break;
             }
         }
@@ -121,11 +134,11 @@ public class Day03501오목P {
     public void switchTurn() {
         while (true) {
             playGame(1);
-            if (check != -1) {
+            if (check != incomplete) {
                 break;
             }
             playGame(2);
-            if (check != -1) {
+            if (check != incomplete) {
                 break;
             }
         }
@@ -133,13 +146,13 @@ public class Day03501오목P {
 
     public void showBoard() { // 오목판 출력
         System.out.print("  ");
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < SIZE; i++) {
             System.out.print(" " + i);
         }
         System.out.println();
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < SIZE; i++) {
             System.out.print(" " + (i) + " ");
-            for (int j = 0; j < size; j++) {
+            for (int j = 0; j < SIZE; j++) {
                 System.out.print(omok[i][j] + " ");
             }
             System.out.println();
