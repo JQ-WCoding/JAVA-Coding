@@ -18,72 +18,63 @@ public class Day04301영단어맞추기게임 {
 
     String word = "performance";
     String meaning = "공연";
-    int size = word.length();
 
     public void startGame() {
         int noStarLeft = -1;
         int count = 0;
+
         char[] tempWord = new char[word.length()];
-        int[] tempNumber = new int[tempWord.length];
-        for (int i = 0; i < tempNumber.length; i++) {
-            tempNumber[i] = random.nextInt(tempNumber.length);
-            for (int j = 0; j < i; j++) {
-                if (tempNumber[i] == tempNumber[j]) {
-                    i--;
-                }
-            }
-        }
+        Arrays.fill(tempWord, '*');
 
         while (true) {
 
             int check = noStarLeft;
-            System.out.println(Arrays.toString(tempNumber));
 
             System.out.println("뜻 : " + meaning);
-
-//            System.out.print("문제 : ");
-//            for (int i = 0; i < size; i++) {
-//                System.out.print(word.charAt(i));
-//            }
-
-            System.out.print("문제 : ");
-            for (int i = 0; i < size; i++) {
-                int forcheck = -1;
-                for (int j = 0; j < count; j++) {
-                    if (tempNumber[j] == i) {
-                        tempWord[i] = word.charAt(i);
-                        for (int z = 0; z < tempWord.length; z++) {
-                            if (tempWord[i] == word.charAt(z)) {
-                                tempWord[z] = word.charAt(z);
-                                break;
+            // 문제 출제
+            if (count > 0) {
+                while (true) {
+                    int randomNumber = random.nextInt(tempWord.length);
+                    if (tempWord[randomNumber] == '*') {
+                        tempWord[randomNumber] = word.charAt(randomNumber);
+                        for (int i = 0; i < tempWord.length; i++) {
+                            if (tempWord[randomNumber] == word.charAt(i)) {
+                                tempWord[i] = word.charAt(i);
                             }
                         }
-                        forcheck = i;
                         break;
                     }
                 }
-                if (forcheck == -1) {
-                    tempWord[i] = '*';
-                }
             }
-            for (int i = 0; i < tempNumber.length; i++) {
-                System.out.print(tempWord[i]);
-            }
-            System.out.println();
-            System.out.println((count + 1) + "번째 시도 : [" + meaning + "]의 의미를 갖는 영어단어를 입력하세요 >>>");
-            String myWord = scanner.next();
-
-            if (myWord.equals(word)) {
-                System.out.println("정답");
-                break;
-            }
+                /*
+            남은 * 확인 후 전체 노출시, 탈출
+             */
             for (int i = 0; i < word.length(); i++) {
                 if (tempWord[i] == '*') {
                     check = i;
                 }
             }
             if (check == noStarLeft) {
+                for (int i = 0; i < tempWord.length; i++) {
+                    System.out.print(tempWord[i]);
+                }
+                System.out.println();
                 System.out.println("게임 오버");
+                break;
+            }
+
+            System.out.print("문제 : ");
+            for (int i = 0; i < tempWord.length; i++) {
+                System.out.print(tempWord[i]);
+            }
+            System.out.println();
+
+            // 시도 문구
+            System.out.println((count + 1) + "번째 시도 : [" + meaning + "]의 의미를 갖는 영어단어를 입력하세요 >>>");
+            String myWord = scanner.next();
+
+            if (myWord.equals(word)) {
+                System.out.println("정답");
                 break;
             }
             count++;
