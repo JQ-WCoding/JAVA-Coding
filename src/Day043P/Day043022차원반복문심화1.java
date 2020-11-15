@@ -15,7 +15,7 @@ public class Day043022차원반복문심화1 {
         for (int i = 0; i < temp.length; i++) {
             if (i % 2 == 0) {
                 for (int j = 0; j < temp[i].length; j++) {
-                    temp[i][j] = count;
+                    temp[i][j]++;
                     count++;
                 }
             } else {

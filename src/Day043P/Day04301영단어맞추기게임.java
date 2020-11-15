@@ -27,7 +27,6 @@ public class Day04301영단어맞추기게임 {
         Arrays.fill(tempWord, '*');
 
         while (true) {
-
             int check = noStarLeft;
 
             System.out.println("뜻 : " + meaning);
