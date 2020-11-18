@@ -5,19 +5,17 @@ import java.util.Scanner;
 
 public class StrikeGame_check {
 	public static void main(String[] args) {
-		Random random = new Random();
-		Scanner input = new Scanner(System.in);
+		Random rn = new Random();
+		Scanner sc = new Scanner(System.in);
 
-//		gameCoin -= 1;
 		int[] answerSheet = new int[4];
 		int[] mySheet = new int[4];
 		int check = -1; // 게임 종료 후 완성된 정답인지 확인
 		// 정답지 출제
-//		run = 0;
-		boolean run = true;
-		while (run) {
+		boolean strikeRun = true;
+		while (strikeRun) {
 			for (int i = 0; i < 4; i++) {
-				answerSheet[i] = random.nextInt(10);
+				answerSheet[i] = rn.nextInt(10);
 				for (int j = 0; j < i; j++) {
 					if (answerSheet[i] == answerSheet[j]) {
 						i--;
@@ -36,15 +34,15 @@ public class StrikeGame_check {
 			System.out.println("}");
 			System.out.println();
 			// 게임이 완료 판독 (20번 반복 후 게임 종료)
-			for (int tryCount = 0; tryCount < 10; tryCount++) {
+			for (int tryCount = 0; tryCount < 3; tryCount++) {
 				int strikeCount = 0; // 스트라이크 개수
 				int ballCount = 0; // 볼 개수
 				// 몇번의 기회가 남았는지 확인하기
-				System.out.println("[" + (10 - tryCount) + "]의 기회");
+				System.out.println("[" + (3 - tryCount) + "]의 기회");
 
 				for (int i = 0; i < 4; i++) {
 					System.out.print((i + 1) + ")번째 숫자 : ");
-					mySheet[i] = input.nextInt();
+					mySheet[i] = sc.nextInt();
 					if (mySheet[i] >= 10 || mySheet[i] < 0) {
 						i--;
 						System.out.println("[오류]다시 입력하세요");
@@ -74,7 +72,7 @@ public class StrikeGame_check {
 					if (mySheet[i] == answerSheet[i]) {
 						strikeCount++;
 					} else {
-						for (int j = 0; j < 4; j++) {
+						for (int j = 0; j < i; j++) {
 							if (mySheet[i] == answerSheet[j]) {
 								ballCount++;
 							}
@@ -86,12 +84,22 @@ public class StrikeGame_check {
 				System.out.println();
 				if(strikeCount == 4) {
 					check = 1;
-					tryCount = 10;
+					tryCount = 20;
 				}
 				else {
 					check = -1;
 				}
-
+				// 게임 결과 체크(정답 / 오답)
+//				for (int i = 0; i < 4; i++) {
+//					for (int j = 0; j < i; j++) {
+//						if (mySheet[i] == answerSheet[j]) {
+//							check = 1;
+//							tryCount = 20;
+//						} else {
+//							check = -1;
+//						}
+//					}
+//				}
 			}
 			System.out.println("게임 종료");
 			// 종료 후 판독 방법
@@ -103,14 +111,14 @@ public class StrikeGame_check {
 			System.out.println();
 			System.out.println("One more? : Use 1 coin");
 			System.out.println("(1) Yes  (2) No");
-			int choice = input.nextInt();
+			int choice = sc.nextInt();
 			if(choice == 1) {
 				System.out.println("==New Game==");
 			}
 			else {
-				run = false;
+				strikeRun = false;
 			}
 		}
-		input.close();
+		sc.close();
 	}
 }

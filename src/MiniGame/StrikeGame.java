@@ -5,18 +5,17 @@ import java.util.Scanner;
 
 public class StrikeGame {
 	public static void main(String[] args) {
-		Random random = new Random();
-		Scanner input = new Scanner(System.in);
+		Random rn = new Random();
+		Scanner sc = new Scanner(System.in);
 
 		int[] answerSheet = new int[4];
 		int[] mySheet = new int[4];
 		int check = -1; // 게임 종료 후 완성된 정답인지 확인
 		// 정답지 출제
-		// 반복문은 countCoin으로 나중에 수정
 		boolean strikeRun = true;
 		while (strikeRun) {
 			for (int i = 0; i < 4; i++) {
-				answerSheet[i] = random.nextInt(10);
+				answerSheet[i] = rn.nextInt(10);
 				for (int j = 0; j < i; j++) {
 					if (answerSheet[i] == answerSheet[j]) {
 						i--;
@@ -43,7 +42,7 @@ public class StrikeGame {
 
 				for (int i = 0; i < 4; i++) {
 					System.out.print((i + 1) + ")번째 숫자 : ");
-					mySheet[i] = input.nextInt();
+					mySheet[i] = sc.nextInt();
 					if (mySheet[i] >= 10 || mySheet[i] < 0) {
 						i--;
 						System.out.println("[오류]다시 입력하세요");
@@ -73,7 +72,7 @@ public class StrikeGame {
 					if (mySheet[i] == answerSheet[i]) {
 						strikeCount++;
 					} else {
-						for (int j = 0; j < 4; j++) {
+						for (int j = 0; j < i; j++) {
 							if (mySheet[i] == answerSheet[j]) {
 								ballCount++;
 							}
@@ -90,6 +89,17 @@ public class StrikeGame {
 				else {
 					check = -1;
 				}
+				// 게임 결과 체크(정답 / 오답)
+//				for (int i = 0; i < 4; i++) {
+//					for (int j = 0; j < i; j++) {
+//						if (mySheet[i] == answerSheet[j]) {
+//							check = 1;
+//							tryCount = 20;
+//						} else {
+//							check = -1;
+//						}
+//					}
+//				}
 			}
 			System.out.println("게임 종료");
 			// 종료 후 판독 방법
@@ -101,7 +111,7 @@ public class StrikeGame {
 			System.out.println();
 			System.out.println("One more? : Use 1 coin");
 			System.out.println("(1) Yes  (2) No");
-			int choice = input.nextInt();
+			int choice = sc.nextInt();
 			if(choice == 1) {
 				System.out.println("==New Game==");
 			}
@@ -109,6 +119,6 @@ public class StrikeGame {
 				strikeRun = false;
 			}
 		}
-		input.close();
+		sc.close();
 	}
 }
