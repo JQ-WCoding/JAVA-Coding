@@ -10,11 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day046">
-      <change afterPath="$PROJECT_DIR$/src/Day047P/Day04701경마게임.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day047P/Day04702소코반게임.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day047P/HorseRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day047P/SOKOBAN.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day047">
+      <change afterPath="$PROJECT_DIR$/src/Day048P/Day04801스네이크게임1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +60,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.SOKOBAN">
+  <component name="RunManager" selected="Application.Snake">
     <configuration name="HorseRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day047P.HorseRace" />
       <module name="Green_Practice" />
@@ -90,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day048P.Snake" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day048P.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -103,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Snake" />
         <item itemvalue="Application.SOKOBAN" />
         <item itemvalue="Application.HorseRace" />
       </list>
@@ -119,7 +130,10 @@
       <workItem from="1605711429047" duration="62000" />
       <workItem from="1605711512708" duration="786000" />
       <workItem from="1605714733373" duration="77000" />
-      <workItem from="1605745546696" duration="16976000" />
+      <workItem from="1605745546696" duration="17562000" />
+      <workItem from="1605767829090" duration="355000" />
+      <workItem from="1605793935274" duration="2992000" />
+      <workItem from="1605830576656" duration="6685000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -128,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605709554459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day047">
+      <created>1605766569568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605766569568</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +169,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day046" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day046" />
+    <MESSAGE value="Day047" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day047" />
   </component>
 </project>
