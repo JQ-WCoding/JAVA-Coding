@@ -10,8 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day047">
-      <change afterPath="$PROJECT_DIR$/src/Day048P/Day04801스네이크게임1.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day048">
+      <change afterPath="$PROJECT_DIR$/HTML/FormRange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/formDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/formVideo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -133,7 +135,9 @@
       <workItem from="1605745546696" duration="17562000" />
       <workItem from="1605767829090" duration="355000" />
       <workItem from="1605793935274" duration="2992000" />
-      <workItem from="1605830576656" duration="6685000" />
+      <workItem from="1605830576656" duration="8287000" />
+      <workItem from="1605852448267" duration="220000" />
+      <workItem from="1605878361239" duration="1626000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -149,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605766569568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day048">
+      <created>1605842604857</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605842604857</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +181,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day046" />
     <MESSAGE value="Day047" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day047" />
+    <MESSAGE value="Day048" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day048" />
   </component>
 </project>
