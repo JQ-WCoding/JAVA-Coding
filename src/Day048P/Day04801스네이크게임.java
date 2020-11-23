@@ -14,18 +14,18 @@ import java.util.Scanner;
  * * 6. 스네이크는 아이템을 먹으면 꼬리가 1개 자란다.
  * * 7. 꼬리는 최대 8개까지만 증가할 수 있다.
  */
-public class Day04801스네이크게임1 {
+public class Day04801스네이크게임 {
     Scanner scanner = new Scanner(System.in);
     Random random = new Random();
 
     final int SIZE = 10;
-    int[][] map = new int[SIZE][SIZE];
+    private final int[][] map = new int[SIZE][SIZE];
 
     // 최소 길이가 5 이상이어야 몸과 부딪힐 수 있다
     int snakeSize = 4;
-    int[] y = new int[snakeSize];
-    int[] x = new int[snakeSize];
-    int item = 9;
+    private int[] y = new int[snakeSize];
+    private int[] x = new int[snakeSize];
+    final int item = 9;
 
     /*
     초기 스네이크 설정
@@ -77,8 +77,8 @@ public class Day04801스네이크게임1 {
     게임 플레이
      */
     public void mainActor() {
-        setMap();
-        moveSnake();
+        setMap(); // 맵 세팅
+        moveSnake(); // 움직임
     }
 
     /*
@@ -125,7 +125,6 @@ public class Day04801스네이크게임1 {
             int tempY = y[0];
 
             if (choice == 4) { // 좌 x--
-
                 tempX--;
             } else if (choice == 5) { // 하 y++
                 tempY++;
@@ -183,7 +182,7 @@ public class Day04801스네이크게임1 {
 
 class Snake {
     public static void main(String[] args) {
-        Day04801스네이크게임1 snakeGame = new Day04801스네이크게임1();
+        Day04801스네이크게임 snakeGame = new Day04801스네이크게임();
         snakeGame.mainActor();
     }
 }

@@ -31,6 +31,7 @@ public class Day04701경마게임 {
      */
     public void horseMove() {
         // 5말의 이동을 각각 total 배열에 저장
+
         for (int i = 0; i < horse.length; i++) {
             if (total[i] < 19) {
                 horse[i][total[i]] = 0;
@@ -106,17 +107,23 @@ public class Day04701경마게임 {
         System.out.println("== 경마 게임 ==");
         while (true) {
             System.out.println(Arrays.toString(rank));
-            if (nextMove() != 1) {
-                continue;
-            }
+//            if (nextMove() != 1) {
+//                continue;
+//            }
+
             gameScreen();
             horseMove();
             rank();
-            if (endGame() == -1) {
+            if (endGame()) {
                 gameScreen();
                 showRank();
                 System.out.println("게임 종료");
                 break;
+            }
+            try {
+                Thread.sleep(2000);
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         }
     }
@@ -142,16 +149,15 @@ public class Day04701경마게임 {
     /*
     게임 종료 조건
      */
-    public int endGame() {
-        int check = -1;
+    public boolean endGame() {
         for (int i = 0; i < horse.length; i++) {
             // total 이 100이 아니면 check 가 -1이 아니다
             // 만약 total 이 100을 넘어가는게 전부 넘으면 check = - 1
             if (total[i] < finishLine) {
-                check = i;
+                return true;
             }
         }
-        return check;
+        return false;
     }
 
     /*
