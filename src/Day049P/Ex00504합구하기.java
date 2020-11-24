@@ -1,8 +1,6 @@
 package Day049P;
 
 
-import java.util.Arrays;
-
 public class Ex00504합구하기 {
     public static void main(String[] args) {
         AnotherAdd anotherAdd = new AnotherAdd();

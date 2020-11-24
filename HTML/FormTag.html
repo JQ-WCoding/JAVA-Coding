@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>FormTag</title>
+</head>
+<body>
+<form>
+    신발사이즈 <input type="number" min="230" max="290" step="10" value="260" name="shoesSize"> <br>
+    색상선택 : <input type="color" name="shoesColor"> <br>
+    날짜 : <input type="date" name="date" min="2020-01-01"><br>
+    시간 : <input type="time" name="time"><br>
+    범위 : <input type="range" name="range" min="1" max="10" step="2"><br>
+
+    진행률 30%  : <progress value="30" max="100"></progress><br>
+
+    <select name="cars">
+        <option value="bmw">BMW</option>
+        <option value="Benz">Mercedes - Benz</option>
+        <option value="Hyundai" selected>현대자동차</option>
+        <option value="Kia">기아자동차</option>
+    </select>
+
+    <input type="submit" value="제출">
+</form>
+</body>
+</html>
