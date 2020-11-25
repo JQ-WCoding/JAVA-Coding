@@ -1,0 +1,15 @@
+div{
+    width: 300px;
+    height: 150px;
+    font-size: 15px;
+    /* margin (요소의 바깥 여백) */
+    margin: 20px;
+    /* padding(요소의 내부 여백) */
+    padding: 20px;
+
+    /* background 속성 (배경 색상) */
+    background-color: gold;
+    /* color 속성 (글자 색상)*/
+    color: chocolate;
+
+}
