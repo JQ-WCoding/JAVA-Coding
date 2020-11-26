@@ -10,13 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day050">
-      <change afterPath="$PROJECT_DIR$/HTML/CssSize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/divSet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day051P/Day05101메서드기본.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day051P/Day05102메서드기본.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day051P/Day05105메서드실습.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day051P/Day05106메서드실습.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day051">
+      <change afterPath="$PROJECT_DIR$/src/Day052P/DAy05204메서드오버로딩.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day052P/Day05201메서드실습.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day052P/Day05202메서드실습.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day052P/Day05203메서드문제.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day052P/This.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,13 +66,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
-  <component name="RunManager" selected="Application.Day05106메서드실습">
-    <configuration name="Day05008클래스숫자이동" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day050P.Day05008클래스숫자이동" />
+  <component name="RunManager" selected="Application.DAy05204메서드오버로딩">
+    <configuration name="DAy05204메서드오버로딩" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day052P.DAy05204메서드오버로딩" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day050P.*" />
+          <option name="PATTERN" value="Day052P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05101메서드기본" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day051P.Day05101메서드기본" />
+    <configuration name="Day05201메서드실습" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day052P.Day05201메서드실습" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day051P.*" />
+          <option name="PATTERN" value="Day052P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05102메서드기본" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day051P.Day05102메서드기본" />
+    <configuration name="Day05202메서드실습" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day052P.Day05202메서드실습" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day051P.*" />
+          <option name="PATTERN" value="Day052P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05105메서드실습" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day051P.Day05105메서드실습" />
+    <configuration name="Day05203메서드문제" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day052P.Day05203메서드문제" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day051P.*" />
+          <option name="PATTERN" value="Day052P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05106메서드실습" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day051P.Day05106메서드실습" />
+    <configuration name="This" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day052P.This" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day051P.*" />
+          <option name="PATTERN" value="Day052P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day05106메서드실습" />
-        <item itemvalue="Application.Day05105메서드실습" />
-        <item itemvalue="Application.Day05102메서드기본" />
-        <item itemvalue="Application.Day05101메서드기본" />
-        <item itemvalue="Application.Day05008클래스숫자이동" />
+        <item itemvalue="Application.DAy05204메서드오버로딩" />
+        <item itemvalue="Application.This" />
+        <item itemvalue="Application.Day05203메서드문제" />
+        <item itemvalue="Application.Day05202메서드실습" />
+        <item itemvalue="Application.Day05201메서드실습" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +187,9 @@
       <workItem from="1606229514410" duration="9000" />
       <workItem from="1606229545154" duration="97000" />
       <workItem from="1606269942654" duration="2051000" />
-      <workItem from="1606282215910" duration="1174000" />
+      <workItem from="1606282215910" duration="1796000" />
+      <workItem from="1606294715730" duration="178000" />
+      <workItem from="1606353793772" duration="5213000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -232,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606229597742</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day051">
+      <created>1606283400759</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606283400759</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +264,7 @@
     <MESSAGE value="Day048" />
     <MESSAGE value="Day049" />
     <MESSAGE value="Day050" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day050" />
+    <MESSAGE value="Day051" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day051" />
   </component>
 </project>
