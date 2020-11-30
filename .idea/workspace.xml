@@ -69,20 +69,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
-  <component name="RunManager" selected="Application.Day05306클래스경마게임">
-    <configuration name="Day0530클래스배열틱택토" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day053P.Day0530클래스배열틱택토" />
-      <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day053P.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Day05303클래스배열중복숫자금지" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day053P.Day05303클래스배열중복숫자금지" />
       <module name="Green_Practice" />
@@ -109,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05305로또한세트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day053P.Day05305로또한세트" />
+    <configuration name="Day05305클래스배열틱택토" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day053P.Day05305클래스배열틱택토" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +109,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05306클래스경마게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day053P.Day05306클래스경마게임" />
+    <configuration name="Day05306로또한세트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day053P.Day05306로또한세트" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day053P.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day05307클래스경마게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day053P.Day05307클래스경마게임" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
@@ -148,9 +148,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day05306클래스경마게임" />
-        <item itemvalue="Application.Day05305로또한세트" />
-        <item itemvalue="Application.Day0530클래스배열틱택토" />
+        <item itemvalue="Application.Day05307클래스경마게임" />
+        <item itemvalue="Application.Day05306로또한세트" />
+        <item itemvalue="Application.Day05305클래스배열틱택토" />
         <item itemvalue="Application.Day05304클래스배열자리예매" />
         <item itemvalue="Application.Day05303클래스배열중복숫자금지" />
       </list>

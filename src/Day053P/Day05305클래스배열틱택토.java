@@ -19,7 +19,7 @@ class Game {
     }
 }
 
-public class Day0530클래스배열틱택토 {
+public class Day05305클래스배열틱택토 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

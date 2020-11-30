@@ -14,7 +14,7 @@ class Lotto {
     }
 }
 
-public class Day05305로또한세트 {
+public class Day05306로또한세트 {
     public static void main(String[] args) {
         Random random = new Random();
         Lotto[] lottos = new Lotto[5];

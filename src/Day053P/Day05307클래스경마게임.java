@@ -84,7 +84,7 @@ class Racing {
     }
 }
 
-public class Day05306클래스경마게임 {
+public class Day05307클래스경마게임 {
     public static void main(String[] args) {
         Racing racing = new Racing();
         racing.run();
