@@ -10,12 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day051">
-      <change afterPath="$PROJECT_DIR$/src/Day052P/DAy05204메서드오버로딩.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day052P/Day05201메서드실습.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day052P/Day05202메서드실습.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day052P/Day05203메서드문제.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day052P/This.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day052">
+      <change afterPath="$PROJECT_DIR$/src/Day053P/Day05301클래스배열.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day053P/Day05302클래스배열.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day053P/Day05303클래스배열중복숫자금지.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day053P/Day05304클래스배열자리예매.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day053P/Day05305로또한세트.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day053P/Day05306클래스경마게임.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day053P/Day0530클래스배열틱택토.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day053P/Day053Ex01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +69,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
-  <component name="RunManager" selected="Application.DAy05204메서드오버로딩">
-    <configuration name="DAy05204메서드오버로딩" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day052P.DAy05204메서드오버로딩" />
+  <component name="RunManager" selected="Application.Day05306클래스경마게임">
+    <configuration name="Day0530클래스배열틱택토" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day053P.Day0530클래스배열틱택토" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day052P.*" />
+          <option name="PATTERN" value="Day053P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05201메서드실습" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day052P.Day05201메서드실습" />
+    <configuration name="Day05303클래스배열중복숫자금지" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day053P.Day05303클래스배열중복숫자금지" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day052P.*" />
+          <option name="PATTERN" value="Day053P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05202메서드실습" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day052P.Day05202메서드실습" />
+    <configuration name="Day05304클래스배열자리예매" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day053P.Day05304클래스배열자리예매" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day052P.*" />
+          <option name="PATTERN" value="Day053P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05203메서드문제" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day052P.Day05203메서드문제" />
+    <configuration name="Day05305로또한세트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day053P.Day05305로또한세트" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day052P.*" />
+          <option name="PATTERN" value="Day053P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="This" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day052P.This" />
+    <configuration name="Day05306클래스경마게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day053P.Day05306클래스경마게임" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day052P.*" />
+          <option name="PATTERN" value="Day053P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,26 +135,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DAy05204메서드오버로딩" />
-        <item itemvalue="Application.This" />
-        <item itemvalue="Application.Day05203메서드문제" />
-        <item itemvalue="Application.Day05202메서드실습" />
-        <item itemvalue="Application.Day05201메서드실습" />
+        <item itemvalue="Application.Day05306클래스경마게임" />
+        <item itemvalue="Application.Day05305로또한세트" />
+        <item itemvalue="Application.Day0530클래스배열틱택토" />
+        <item itemvalue="Application.Day05304클래스배열자리예매" />
+        <item itemvalue="Application.Day05303클래스배열중복숫자금지" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +190,12 @@
       <workItem from="1606269942654" duration="2051000" />
       <workItem from="1606282215910" duration="1796000" />
       <workItem from="1606294715730" duration="178000" />
-      <workItem from="1606353793772" duration="5213000" />
+      <workItem from="1606353793772" duration="6503000" />
+      <workItem from="1606377505139" duration="60000" />
+      <workItem from="1606393204799" duration="310000" />
+      <workItem from="1606454280823" duration="4000" />
+      <workItem from="1606455698578" duration="159000" />
+      <workItem from="1606699927783" duration="8362000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -240,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606283400759</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day052">
+      <created>1606361882152</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606361882152</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +278,7 @@
     <MESSAGE value="Day049" />
     <MESSAGE value="Day050" />
     <MESSAGE value="Day051" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day051" />
+    <MESSAGE value="Day052" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day052" />
   </component>
 </project>
