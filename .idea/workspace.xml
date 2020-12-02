@@ -10,14 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day053">
-      <change afterPath="$PROJECT_DIR$/src/Day053P/Day05308클래스배열회원가입.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day053P/Day05309클래스배열타자연습.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day054P/Day05401클래스배열.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day054P/Day05402클래스배열.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day054P/Day05403클래스배열학생컨트롤러.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day054P/Day05404클래스배열고객관리.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day054P/Day05405클래스배열.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day054">
+      <change afterPath="$PROJECT_DIR$/src/Day055P/Day05501생성자이론.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day055P/Day05502생성자오버로딩.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day055P/Day05503생성사오버로딩2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day055P/Day05504캡슐화1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day055P/Day05505캡슐화2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day055P/Day05506래퍼클래스.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day055P/Day05507스태틱.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,20 +68,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
-  <component name="RunManager" selected="Application.Day05403클래스배열학생컨트롤러">
-    <configuration name="Day05307클래스경마게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day053P.Day05307클래스경마게임" />
-      <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day053P.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day05505캡슐화2">
     <configuration name="Day05308클래스배열회원가입" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day053P.Day05308클래스배열회원가입" />
       <module name="Green_Practice" />
@@ -134,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day05505캡슐화2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day055P.Day05505캡슐화2" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day055P.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day05505캡슐화2" />
         <item itemvalue="Application.Day05403클래스배열학생컨트롤러" />
         <item itemvalue="Application.Day05401클래스배열" />
         <item itemvalue="Application.Day05309클래스배열타자연습" />
         <item itemvalue="Application.Day05308클래스배열회원가입" />
-        <item itemvalue="Application.Day05307클래스경마게임" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +185,9 @@
       <workItem from="1606455698578" duration="159000" />
       <workItem from="1606699927783" duration="8796000" />
       <workItem from="1606782733669" duration="8604000" />
+      <workItem from="1606830569873" duration="187000" />
+      <workItem from="1606833683270" duration="82000" />
+      <workItem from="1606870429516" duration="5022000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -256,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606727691992</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day054">
+      <created>1606830605182</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606830605182</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +293,7 @@
     <MESSAGE value="Day051" />
     <MESSAGE value="Day052" />
     <MESSAGE value="Day053" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day053" />
+    <MESSAGE value="Day054" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day054" />
   </component>
 </project>
