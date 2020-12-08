@@ -13,10 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day058">
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="plus">
+      <change afterPath="$PROJECT_DIR$/src/Day054P/Day05406클래스배열문자열test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day054P/Day05405클래스배열.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day054P/Day05405클래스배열문자열test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day058P/Day05801정처리산기문제.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day058P/Day05801정처리산기문제.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
-  <component name="RunManager" selected="Application.Day05405클래스배열문자열test">
+  <component name="RunManager" selected="Application.Day05406클래스배열문자열test2">
     <configuration name="Day05405클래스배열문자열test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day054P.Day05405클래스배열문자열test" />
       <module name="Green_Practice" />
@@ -80,15 +79,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05703리스트직접만들기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day057P.Day05703리스트직접만들기" />
+    <configuration name="Day05406클래스배열문자열test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day054P.Day05406클래스배열문자열test2" />
       <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day057P.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day05406클래스배열문자열test2" />
         <item itemvalue="Application.Day05405클래스배열문자열test" />
         <item itemvalue="Application.Day05801정처리산기문제" />
         <item itemvalue="Application.Day05705리스트실습" />
         <item itemvalue="Application.Day05704벡터" />
-        <item itemvalue="Application.Day05703리스트직접만들기" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +200,7 @@
       <workItem from="1607050351535" duration="5943000" />
       <workItem from="1607317357109" duration="699000" />
       <workItem from="1607318376402" duration="6039000" />
-      <workItem from="1607388429665" duration="10718000" />
+      <workItem from="1607388429665" duration="12000000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -300,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607388469252</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="plus">
+      <created>1607415449445</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607415449445</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +330,18 @@
     <MESSAGE value="Day054" />
     <MESSAGE value="Day055" />
     <MESSAGE value="Day058" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day058" />
+    <MESSAGE value="plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="plus" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Day054P/Day05406클래스배열문자열test2.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
