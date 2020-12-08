@@ -70,31 +70,31 @@ class Game2048 {
                     }
                     k--;
                 }
-            } if (direction == 3) {
-                int check = 0;
-                for (int j = 0; j < 4; j++) {
-                    if (game[j][i] != 0) {
-                        game[check][i] = game[j][i];
-                        if (check != j) {
-                            game[j][i] = 0;
-                        }
-                        check++;
-                    }
-                }
-            } if (direction == 4) {
-                int check = 3;
-                int k = 3;
-                for (int j = 0; j < 4; j++) {
-                    if (game[k][i] != 0) {
-                        game[check][i] = game[k][i];
-                        if (check != k) {
-                            game[k][i] = 0;
-                        }
-                        check--;
-                    }
-                    k--;
-                }
-            }
+           } //if (direction == 3) {
+//                int check = 0;
+//                for (int j = 0; j < 4; j++) {
+//                    if (game[j][i] != 0) {
+//                        game[check][i] = game[j][i];
+//                        if (check != j) {
+//                            game[j][i] = 0;
+//                        }
+//                        check++;
+//                    }
+//                }
+//            } if (direction == 4) {
+//                int check = 3;
+//                int k = 3;
+//                for (int j = 0; j < 4; j++) {
+//                    if (game[k][i] != 0) {
+//                        game[check][i] = game[k][i];
+//                        if (check != k) {
+//                            game[k][i] = 0;
+//                        }
+//                        check--;
+//                    }
+//                    k--;
+//                }
+//            }
         }
     }
 
@@ -118,25 +118,25 @@ class Game2048 {
                         j++;
                     }
                 }
-            } if (direction == 3) {
-                for (int j = 0; j < 3; j++) {
-                    if (game[j][i] == game[j + 1][i]) {
-                        game[j][i] += game[j + 1][i];
-                        game[j + 1][i] = 0;
-                        j++;
-                    }
-                }
-            } if (direction == 4) {
-                int k = 3;
-                for (int j = 0; j < 3; j++) {
-                    if (game[k][i] == game[k - 1][i]) {
-                        game[k][i] += game[k - 1][i];
-                        game[k - 1][i] = 0;
-                        k--;
-                        j++;
-                    }
-                }
-            }
+            } //if (direction == 3) {
+//                for (int j = 0; j < 3; j++) {
+//                    if (game[j][i] == game[j + 1][i]) {
+//                        game[j][i] += game[j + 1][i];
+//                        game[j + 1][i] = 0;
+//                        j++;
+//                    }
+//                }
+//            } if (direction == 4) {
+//                int k = 3;
+//                for (int j = 0; j < 3; j++) {
+//                    if (game[k][i] == game[k - 1][i]) {
+//                        game[k][i] += game[k - 1][i];
+//                        game[k - 1][i] = 0;
+//                        k--;
+//                        j++;
+//                    }
+//                }
+//            }
         }
     }
 

@@ -14,8 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="plus">
-      <change afterPath="$PROJECT_DIR$/src/Day054P/Ex00601문자열문제.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day059P/Day05901homework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day056P/Day056012048게임.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day056P/Day056012048게임.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day058P/Day05803static활용.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day058P/Day05803static활용.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +67,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
-  <component name="RunManager" selected="Application.Ex00601문자열문제">
-    <configuration name="Day05405클래스배열문자열test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day054P.Day05405클래스배열문자열test" />
-      <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day054P.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day05901homework">
     <configuration name="Day05406클래스배열문자열test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day054P.Day05406클래스배열문자열test2" />
       <module name="Green_Practice" />
@@ -86,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05705리스트실습" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day057P.Day05705리스트실습" />
+    <configuration name="Day056012048게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day056P.Day056012048게임" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day057P.*" />
+          <option name="PATTERN" value="Day056P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day05801정처리산기문제" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day058P.Day05801정처리산기문제" />
+    <configuration name="Day05803static활용" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day058P.Day05803static활용" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day058P.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day05901homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day059P.Day05901homework" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day059P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,26 +127,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day05901homework" />
+        <item itemvalue="Application.Day05803static활용" />
+        <item itemvalue="Application.Day056012048게임" />
         <item itemvalue="Application.Ex00601문자열문제" />
         <item itemvalue="Application.Day05406클래스배열문자열test2" />
-        <item itemvalue="Application.Day05405클래스배열문자열test" />
-        <item itemvalue="Application.Day05801정처리산기문제" />
-        <item itemvalue="Application.Day05705리스트실습" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +200,8 @@
       <workItem from="1607050351535" duration="5943000" />
       <workItem from="1607317357109" duration="699000" />
       <workItem from="1607318376402" duration="6039000" />
-      <workItem from="1607388429665" duration="12653000" />
+      <workItem from="1607388429665" duration="14611000" />
+      <workItem from="1607431740427" duration="2129000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -307,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607416754982</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="plus">
+      <created>1607417423415</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607417423415</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

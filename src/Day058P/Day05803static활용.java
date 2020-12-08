@@ -97,6 +97,21 @@ class AccountManager {
         return personalList;
     }
 
+    /*
+    계좌개설
+     */
+    public String makeId() {
+        while (true) {
+            System.out.println("생성할 아이디를 입력하세요 : ");
+            String myId = scanner.next();
+            for (int i = 0; i < accountList.size(); i++) {
+                if (accountList.get(i).userId.equals(myId)) {
+                    return myId;
+                }
+            }
+        }
+    }
+
     public void openAccount(String id) { // 계좌 개설
         Random random = new Random();
         String accountId = "";
@@ -110,7 +125,7 @@ class AccountManager {
             int r4 = random.nextInt(10);
             accountId += r4;
             if (i < 3 - 1) {
-                accountId += "";
+                accountId += "-";
             }
             System.out.println(id + " : " + accountId);
             Account account = new Account();
@@ -176,7 +191,7 @@ class Bank {
             } else if (sel == 3) { // 조회
                 accountManager.checkBalance(userManager);
             } else if (sel == 4) { // 계좌추가
-
+//                accountManager.openAccount(userManager.checkId());
             } else if (sel == 5) { // 이체
                 accountManager.deposit(userManager);
             } else if (sel == 6) { // 회원탈퇴
