@@ -1,8 +1,8 @@
 package Day058P;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 
 class Member {
     private int customerNo; // 회원번호
@@ -12,6 +12,11 @@ class Member {
     private String joinDate; // 가입일자
     private String grade; // 고객등급
     private String city; // 거주도시
+    private int totalPay;
+
+    public int getCustomerNo() {
+        return customerNo;
+    }
 
     public Member() {
 
@@ -26,6 +31,19 @@ class Member {
         this.grade = grade;
         this.city = city;
     }
+
+    public void setTotalPay(int totalPay) {
+        this.totalPay = totalPay;
+    }
+
+    public int getTotalPay() {
+        return totalPay;
+    }
+
+    public void print() {
+        System.out.println(customerNo + "  " + customerName + "  " + totalPay);
+    }
+
 }
 
 class Money {
@@ -50,6 +68,7 @@ class Money {
         this.productCode = productCode;
         this.sellDate = sellDate;
     }
+
 }
 
 class Manager {
@@ -81,5 +100,44 @@ public class Day05801정처리산기문제 {
     public static void main(String[] args) {
         Manager manager = new Manager();
         manager.init();
+
+        List<Integer> check = new ArrayList<>();
+        for (int i = 0; i < manager.moneyList.size(); i++) {
+            if (!check.contains(manager.moneyList.get(i).customerNo)) {
+                check.add(manager.moneyList.get(i).customerNo);
+            }
+        }
+        System.out.println(check);
+
+        for (Integer integer : check) {
+            int total = 0;
+            for (int j = 0; j < manager.moneyList.size(); j++) {
+                if (integer == manager.moneyList.get(j).customerNo) {
+                    total += manager.moneyList.get(j).price;
+                }
+            }
+            for (int j = 0; j < manager.memberList.size(); j++) {
+                if (integer == manager.memberList.get(j).getCustomerNo()) {
+                    manager.memberList.get(j).setTotalPay(total);
+                }
+            }
+        }
+
+        manager.memberList.sort(new Comparator<Member>() {
+            @Override
+            public int compare(Member m1, Member m2) {
+                int price1 = m1.getTotalPay();
+                int price2 = m2.getTotalPay();
+
+                return Integer.compare(price2, price1);
+            }
+        });
+
+        for (int i = 0; i < manager.memberList.size(); i++) {
+            if (manager.memberList.get(i).getTotalPay() != 0) {
+                manager.memberList.get(i).print();
+                System.out.println("-------------------------------------");
+            }
+        }
     }
 }
