@@ -22,7 +22,7 @@ class Fruit{
         System.out.println(name + " : " + price);
     }
 }
-public class Day05503생성사오버로딩2 {
+public class Day05503생성자오버로딩2 {
     public static void main(String[] args) {
         Fruit apple = new Fruit();
 

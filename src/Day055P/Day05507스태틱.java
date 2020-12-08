@@ -12,7 +12,6 @@ class Ex03 {
     int y;
     // static(=클래스 변수)
     static int z;
-
 }
 
 public class Day05507스태틱 {
