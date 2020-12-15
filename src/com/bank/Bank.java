@@ -32,9 +32,9 @@ public class Bank {
                     if (choice == 1) { // 입금
                         deposit();
                     } else if (choice == 2) { // 인출
-
+                        withdrawal();
                     } else if (choice == 3) { // 송금
-
+                        wire();
                     } else if (choice == 4) { // 잔액 확인
                         checkAccount();
                     } else if (choice == 5) { // 계좌 생성
@@ -168,7 +168,7 @@ public class Bank {
      * 계좌생성
      */
     public void addAccount() {
-        System.out.println("[계좌생성] 추가 생성할 계좌의 잔액을 입력하세요 : ");
+        System.out.println("[계좌생성] 추가 생성할 계좌의 잔액을 입력하세요");
         int myMoney = scanner.nextInt();
         Account[] temp = accountManager.accountList;
         accountManager.accountList = new Account[accountManager.accountCount + 1];
@@ -214,6 +214,19 @@ public class Bank {
         String myAccountNumber = inputAccount();
 //        System.out.println(myAccountNumber);
 
+        int index = checkMyAccount(myAccountNumber);
+
+        if (index != -1) {
+            System.out.println("현재 잔액은 : " + accountManager.accountList[index].money + "원 입니다");
+        } else {
+            System.out.println("[알림] 본인 계좌가 아니거나 계좌번호가 기입 오류입니다");
+        }
+    }
+
+    /**
+     * 본인 계좌 확인
+     */
+    public int checkMyAccount(String myAccountNumber) {
         int index = -1;
         for (int i = 0; i < accountManager.accountCount; i++) {
             if (accountManager.accountList[i].accountNumber.equals(myAccountNumber)) {
@@ -223,11 +236,7 @@ public class Bank {
                 }
             }
         }
-        if (index != -1) {
-            System.out.println("현재 잔액은 : " + accountManager.accountList[index].money + "원 입니다");
-        } else {
-            System.out.println("[알림] 본인 계좌가 아니거나 계좌번호가 기입 오류입니다");
-        }
+        return index;
     }
 
     /**
@@ -249,7 +258,7 @@ public class Bank {
      * 입금
      */
     public void deposit() {
-        System.out.println("[입금] 입금할 계좌 번호를 입력하세요 : ");
+        System.out.println("[입금] 입금할 계좌 번호를 입력하세요");
         String accountNumber = inputAccount();
         int index = -1;
         for (int i = 0; i < accountManager.accountCount; i++) {
@@ -262,6 +271,7 @@ public class Bank {
         if (index != -1) {
             System.out.println("[입금] 입금할 금액을 입력하세요");
             int depositMoney = scanner.nextInt();
+
             if (depositMoney > 0) {
                 accountManager.accountList[index].money += depositMoney;
                 System.out.printf("[알림] %d원 입금 완료\n", depositMoney);
@@ -271,5 +281,72 @@ public class Bank {
         } else {
             System.out.println("[알림] 존재하지 않는 계좌입니다");
         }
+    }
+
+    /**
+     * 인출
+     */
+    public void withdrawal() {
+        System.out.println("[인출] 인출할 계좌번호를 입력하세요");
+        String withdrawalAccountNumber = inputAccount();
+
+        int index = checkMyAccount(withdrawalAccountNumber);
+
+        if (index != -1) {
+            System.out.println("[인출] 인출할 금액을 입력하세요");
+            int money = scanner.nextInt();
+
+            if (money <= accountManager.accountList[index].money) {
+                accountManager.accountList[index].money -= money;
+                System.out.println(money + "원이 인출되었습니다");
+                System.out.printf("현재 남은 잔액은 %d 원입니다", accountManager.accountList[index].money);
+            } else {
+                System.out.println("[알림] 잔액부족");
+            }
+        } else {
+            System.out.println("[알림] 본인 계좌가 아니거나 계좌번호가 기입 오류입니다");
+        }
+    }
+
+    /**
+     * 송금
+     */
+    public void wire() {
+        System.out.println("[송금] 계좌번호를 입력하세요");
+        String myAccount = inputAccount();
+        int checkIndex = checkMyAccount(myAccount);
+        if (checkIndex != -1) {
+            System.out.println("[송금] 송금할 계좌를 입력하세요");
+            String wireAccountNumber = inputAccount();
+            int wireIndex = checkMyAccount(wireAccountNumber);
+            if (wireIndex != -1) {
+                System.out.println("[송금] 송금할 금액을 입력하세요");
+                int money = scanner.nextInt();
+                if (money <= accountManager.accountList[checkIndex].money) {
+                    accountManager.accountList[checkIndex].money -= money;
+                    accountManager.accountList[wireIndex].money += money;
+                } else {
+                    System.out.println("[알림] 잔액이 부족합니다");
+                }
+            } else {
+                System.out.println("[알림] 송급할 계좌가 존재하지 않습니다");
+            }
+        } else {
+            System.out.println("[알림] 계좌번호 입력오류");
+        }
+    }
+
+    /**
+     * 계좌 삭제
+     */
+    public void deleteAccount() {
+
+    }
+
+    /**
+     * 계정 삭제
+     */
+    public void deleteClient() {
+
     }
 }
