@@ -22,6 +22,7 @@ public class Bank {
      * 메인 동작 기능
      */
     public void run() {
+        fileManger.loadFile(accountManager, clientManager);
         boolean run = true;
         while (run) {
             // 로그인 상태일 경우
@@ -40,9 +41,10 @@ public class Bank {
                     } else if (choice == 5) { // 계좌 생성
                         addAccount();
                     } else if (choice == 6) { // 계좌 삭제
-
+                        deleteAccount();
                     } else if (choice == 7) { // 계정 삭제
-
+                        deleteClient();
+                        break;
                     } else if (choice == 0) { // 로그아웃
                         System.out.println("로그아웃 되었습니다");
                         log = -1;
@@ -50,6 +52,7 @@ public class Bank {
                     }
                 }
             }
+            fileManger.saveFile(accountManager, clientManager);
             // 로그아웃 상태일 경우
             while (log == -1) {
                 inLogoutMenuMessage();
@@ -63,6 +66,7 @@ public class Bank {
                     break;
                 }
             }
+            fileManger.saveFile(accountManager, clientManager);
         }
     }
 
@@ -138,11 +142,6 @@ public class Bank {
                 if (clientManager.clientCount == 0) { // 첫 고객인경우
                     clientManager.clientList = new Client[1]; // 1
                     clientManager.clientList[0] = new Client();
-//                    clientManager.clientList[0].id = signInId;
-//                    clientManager.clientList[0].pwd = signInPw;
-//                    clientManager.clientList[0].name = signInName;
-//                    clientManager.clientList[0].clientNo = 10001 + clientManager.clientCount;
-//                    clientManager.clientCount++;
                 } else {
                     Client[] temp = clientManager.clientList;
                     clientManager.clientList = new Client[clientManager.clientCount + 1];
@@ -151,6 +150,7 @@ public class Bank {
                         clientManager.clientList[i] = temp[i];
                     }
                 }
+                clientManager.clientList[clientManager.clientCount] = new Client();
                 clientManager.clientList[clientManager.clientCount].id = signInId;
                 clientManager.clientList[clientManager.clientCount].pwd = signInPw;
                 clientManager.clientList[clientManager.clientCount].name = signInName;
@@ -210,7 +210,7 @@ public class Bank {
      * 잔액 확인
      */
     public void checkAccount() {
-        System.out.println("[잔액확인] 본인 계좌번호를 4자리씩 작성해주세요 :");
+        System.out.println("[잔액확인] 본인 계좌번호를 3자리씩 작성해주세요 :");
         String myAccountNumber = inputAccount();
 //        System.out.println(myAccountNumber);
 
@@ -234,6 +234,20 @@ public class Bank {
                     index = i;
                     break;
                 }
+            }
+        }
+        return index;
+    }
+
+    /**
+     * 송급 계좌 확인
+     */
+    public int checkDepositAccount(String wireAccountNumber) {
+        int index = -1;
+        for (int i = 0; i < accountManager.accountCount; i++) {
+            if (accountManager.accountList[i].accountNumber.equals(wireAccountNumber)) {
+                index = i;
+                break;
             }
         }
         return index;
@@ -318,7 +332,7 @@ public class Bank {
         if (checkIndex != -1) {
             System.out.println("[송금] 송금할 계좌를 입력하세요");
             String wireAccountNumber = inputAccount();
-            int wireIndex = checkMyAccount(wireAccountNumber);
+            int wireIndex = checkDepositAccount(wireAccountNumber);
             if (wireIndex != -1) {
                 System.out.println("[송금] 송금할 금액을 입력하세요");
                 int money = scanner.nextInt();
@@ -340,13 +354,89 @@ public class Bank {
      * 계좌 삭제
      */
     public void deleteAccount() {
+        System.out.println("[계좌 삭제] 삭제할 계좌 번호를 입력하세요");
+        String deleteAccountNumber = inputAccount();
+        int checkIndex = checkMyAccount(deleteAccountNumber);
+        if (checkIndex != -1) { // 일치하는 계좌 번호가 있을 경우
+            System.out.println("[계좌 삭제] 남은 금액을 인출 후 삭제합니다");
+            System.out.println(accountManager.accountList[checkIndex].money + "원을 인출합니다");
 
+            Account[] temp = accountManager.accountList;
+            accountManager.accountList = new Account[accountManager.accountCount - 1];
+            int count = 0;
+            for (int i = 0; i < accountManager.accountCount; i++) {
+                if (i != checkIndex) {
+                    accountManager.accountList[i] = new Account();
+                    accountManager.accountList[count] = temp[i];
+                    count++;
+                }
+            }
+            accountManager.accountCount--;
+            System.out.println("[알림] 계좌 번호가 삭제되었습니다");
+        } else {
+            System.out.println("[알림] 일치하는 계좌번호가 없거나 본인 계좌가 아닙니다");
+        }
     }
 
     /**
      * 계정 삭제
      */
     public void deleteClient() {
+        System.out.println("[계정 삭제] 현재 계정을 삭제 하겠습니까?");
+        System.out.println("(1) yes , if no press anyKey");
+        int choice = scanner.nextInt();
 
+        if (choice == 1) { // yes
+            int count = 0;
+            for (int i = 0; i < accountManager.accountCount; i++) {
+                if (accountManager.accountList[i].clientNo == clientManager.clientList[log].clientNo) {
+                    count++;
+                }
+            }
+            if (count == 0){
+                System.out.println("계좌는 없습니다");
+            }else {
+                int checkCount = count;
+                int[] indexArray = new int[count];
+                count = 0;
+                for (int i = 0; i < accountManager.accountCount; i++) {
+                    if (accountManager.accountList[i].clientNo == clientManager.clientList[log].clientNo) {
+                        indexArray[count] = i;
+                        count++;
+                    }
+                }
+                // accountManager 내의 accountList 재설정
+                count = 0;
+                int arrayCount = 0;
+                Account[] accountsTemp = accountManager.accountList;
+                accountManager.accountList = new Account[accountManager.accountCount - count];
+                for (int i = 0; i < accountManager.accountCount; i++) {
+                    if (i != indexArray[count]) {
+                        accountManager.accountList[arrayCount] = new Account();
+                        accountManager.accountList[arrayCount] = accountsTemp[i];
+                        arrayCount++;
+                    } else {
+                        count++;
+                    }
+                }
+                accountManager.accountCount -= checkCount;
+            }
+            count = 0;
+            // clientManger 내의 clientList 재설정
+            Client[] clientsTemp = clientManager.clientList;
+            clientManager.clientList = new Client[clientManager.clientCount - 1];
+            for (int i = 0; i < clientManager.clientCount; i++) {
+                if (log != i) {
+                    clientManager.clientList[count] = clientsTemp[i];
+                    count++;
+                }
+            }
+            clientManager.clientCount--;
+            log = -1;
+
+            System.out.println("[알림] 계정이 삭제 되었습니다 메인메뉴로 이동합니다");
+        } else {
+            System.out.println("[알림] 메뉴로 돌아갑니다");
+        }
     }
 }
