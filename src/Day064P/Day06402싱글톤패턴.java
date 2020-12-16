@@ -1,4 +1,4 @@
-package Day064;
+package Day064P;
 
 class MySingleTon {
     private MySingleTon() {
