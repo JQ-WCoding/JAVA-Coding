@@ -13,28 +13,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="atm finish">
-      <change afterPath="$PROJECT_DIR$/src/Day065P/Day06501상속.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day065P/Day06502상속.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day065P/Day06503메서드오버라이드.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day065P/Day06504super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day065P/Day06505접근제어자.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day065P/실습예제/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day065P/실습예제/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day065P/실습예제/ScoreList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shop/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shop/CartManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shop/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shop/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shop/ItemManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shop/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shop/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shop/UserManager.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day065">
+      <change afterPath="$PROJECT_DIR$/src/Day067P/다형성1/Day067다형성1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day067P/다형성2/Day067다형성2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day067P/인터페이스/Day06703인터페이스.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day067P/추상화/Day067추상화.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day067P/클래스형변환/Day06702클래스형변환.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rpg/FileData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rpg/Guild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rpg/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rpg/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rpg/MainGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rpg/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rpg/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rpg/TextRPG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rpg/Unit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day064/Day06401날짜.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day064P/Day06401날짜.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day064/Day06402싱글톤패턴.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day064P/Day06402싱글톤패턴.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day064/Day06403캘린더.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day064P/Day06403캘린더.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,33 +78,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Day05901homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day059P.Day05901homework" />
-      <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day059P.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day06401날짜" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day064P.Day06401날짜" />
-      <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day064P.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day06702클래스형변환">
     <configuration name="Day06402싱글톤패턴" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day064P.Day06402싱글톤패턴" />
       <module name="Green_Practice" />
@@ -137,6 +105,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day06702클래스형변환" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day067P.클래스형변환.Day06702클래스형변환" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day067P.클래스형변환.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day067다형성2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day067P.다형성2.Day067다형성2" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day067P.다형성2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bank.Main" />
       <module name="Green_Practice" />
@@ -144,24 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day06702클래스형변환" />
+        <item itemvalue="Application.Day067다형성2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Day06403캘린더" />
         <item itemvalue="Application.Day06402싱글톤패턴" />
-        <item itemvalue="Application.Day06401날짜" />
-        <item itemvalue="Application.Day05901homework" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +214,13 @@
       <workItem from="1608070779649" duration="1032000" />
       <workItem from="1608078275238" duration="248000" />
       <workItem from="1608078538207" duration="1449000" />
-      <workItem from="1608080877941" duration="2945000" />
+      <workItem from="1608080877941" duration="4322000" />
+      <workItem from="1608163918520" duration="6183000" />
+      <workItem from="1608203725494" duration="3488000" />
+      <workItem from="1608255191165" duration="744000" />
+      <workItem from="1608510361576" duration="73000" />
+      <workItem from="1608510466707" duration="8113000" />
+      <workItem from="1608593035614" duration="2654000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -373,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608053805892</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Day065">
+      <created>1608106992581</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608106992581</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,6 +404,7 @@
     <MESSAGE value="Bank System" />
     <MESSAGE value="Day064" />
     <MESSAGE value="atm finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="atm finish" />
+    <MESSAGE value="Day065" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day065" />
   </component>
 </project>
