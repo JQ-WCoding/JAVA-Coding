@@ -59,7 +59,9 @@ public class Shop {
                 int choice = scanner.nextInt();
                 if (choice == 1) { // 물품 관리
                     manageItem();
-                } else if (choice == 2) { // 사용자 관리
+                } else if (choice == 2) { // 장바구니 관리
+
+                } else if (choice == 3) { // 사용자 관리
                     manageUser();
                 } else if (choice == 0) {
                     System.out.println("메인메뉴 이동");
@@ -76,8 +78,10 @@ public class Shop {
      * 관리자 메뉴
      */
     public void adminMenuText() {
-        System.out.println("[1] 아이템 관리");
-        System.out.println("[2] 카트 관리");
+        // 관리자로 넘어가도 logId 변경해주기
+        System.out.println("[관리자 메뉴]");
+        System.out.println("[1] 물품 관리");
+        System.out.println("[2] 장바구니 관리");
         System.out.println("[3] 사용자 관리");
         System.out.println("[0] 메인메뉴 이동");
     }
@@ -98,30 +102,55 @@ public class Shop {
     }
 
     /**
-     * 회원 아이디 비밀번호 체크
-     *
-     * @param myId
-     * @param myPw
-     * @return check
-     */
-    public boolean userChecking(String myId, String myPw) {
-        boolean check = false;
-
-        for (int i = 0; i < UserManager.userList.size(); i++) {
-            if (UserManager.userList.get(i).id.equals(myId) && UserManager.userList.get(i).pw.equals(myPw)) {
-                check = true;
-                break;
-            }
-        }
-
-        return check;
-    }
-
-    /**
      * 사용자 메뉴
      */
     public void userMenu() {
+        while (true) {
+            userMenuMessage();
+            int choice = scanner.nextInt();
+            if (choice == 1) { // 로그인
+                if (logId.equals("")) {
+                    logId = userManager.userLogin();
+                }
+            } else if (choice == 2) { // 회원 가입
+                if (logId.equals("")) {
+                    userManager.userSignIn();
+                }
+            } else if (choice == 3) { // 물품 구매
+                if (!logId.equals("")) {
+                    cartManager.buyItem(logId);
+                }
+            } else if (choice == 4) { // 장바구니 확인
+                if (!logId.equals("")) {
+                    cartManager.checkCart(logId);
+                }
+            } else if (choice == 5) { // 로그아웃
+                if (!logId.equals("")) {
+                    logId = "";
+                }
+            } else if (choice == 6) { // 회원 탈퇴
+                if (!logId.equals("")) {
+                    userManager.userSignOut(logId);
+                }
+            } else if (choice == 0) { // 뒤로가기
+                System.out.println("메인 메뉴로 이동합니다");
+                break;
+            }
+        }
+    }
 
+    /**
+     * 회원 메뉴 메세지
+     */
+    public void userMenuMessage() {
+        System.out.println("[사용자 메뉴]");
+        System.out.println("[1] 로그인");
+        System.out.println("[2] 회원 가입");
+        System.out.println("[3] 물품 구매");
+        System.out.println("[4] 장바구니 확인");
+        System.out.println("[5] 로그아웃");
+        System.out.println("[6] 회원 탈퇴");
+        System.out.println("[0] 뒤로가기");
     }
 
     /**
@@ -170,7 +199,7 @@ public class Shop {
             } else if (choice == 2) { // 회원 삭제
                 userManager.deleteUser();
             } else if (choice == 3) { // 회원 비밀번호 초기화
-
+                userManager.resetPw();
             } else if (choice == 4) { // 회원 전체 출력
                 userManager.printAll();
             } else if (choice == 0) { // 뒤로가기

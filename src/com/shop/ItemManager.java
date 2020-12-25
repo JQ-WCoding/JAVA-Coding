@@ -38,11 +38,6 @@ public class ItemManager {
         addItem.price = Shop.scanner.nextInt();
 
         System.out.println("물품 번호는 가장 마지막 번호 다음으로 자동 등록됩니다 (사이 공백시 공백의 번호로 입력됩니다)");
-//        if (itemList.size() == 0) {
-//            addItem.itemNo = 1001;
-//        } else {
-//            addItem.itemNo = addItemNo();
-//        }
         addItem.itemNo = addItemNo();
 
         // 물품 배열에 추가
@@ -51,12 +46,12 @@ public class ItemManager {
 
     /**
      * 물품 번호 자동 입력
-     * 1001번 부터 시작
+     * 10001번 부터 시작
      *
      * @return checkItemNO
      */
     public int addItemNo() {
-        int checkItemNo = 1001;
+        int checkItemNo = 10001;
         for (Item item : itemList) {
             if (checkItemNo == item.itemNo) {
                 checkItemNo++;
@@ -71,8 +66,12 @@ public class ItemManager {
      * 전체 물품 리스트 출력
      */
     public void printAll() {
-        for (Item item : itemList) {
-            System.out.println(item.toString());
+        if (itemList.size() == 0) {
+            System.out.println("제품이 비어있습니다");
+        } else {
+            for (Item item : itemList) {
+                System.out.println(item.toString());
+            }
         }
     }
 
@@ -114,12 +113,13 @@ public class ItemManager {
         }
         if (indexList.size() != 0) {
             System.out.println("해당 카테고리가 포함된 물품을 모두 삭제합니다");
-
-            for (int i = 0; i < indexList.size(); i++) {
-                itemList.remove(indexList.get(i));
+            for (Integer integer : indexList) {
+                itemList.remove(Integer.parseInt(String.valueOf(integer)));
             }
         } else {
             System.out.println("삭제할 카테고리가 존재하지 않습니다.");
         }
     }
+
+
 }
