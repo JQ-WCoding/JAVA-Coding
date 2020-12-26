@@ -99,6 +99,7 @@
       <change afterPath="$PROJECT_DIR$/src/Day041P/atm.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Day041P/jang.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Day041P/이준규_ATM_BASKET.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day071P/ButtonEx1/ButtonEx1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/이준규Bank.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/이준규Bank수정본(12:22).zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/program_이준규.zip" afterDir="false" />
@@ -106,9 +107,6 @@
       <change afterPath="$PROJECT_DIR$/vector.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shop/CartManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/CartManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shop/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shop/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/UserManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +324,8 @@
       <workItem from="1608679501542" duration="20225000" />
       <workItem from="1608768408583" duration="4984000" />
       <workItem from="1608785737289" duration="7337000" />
-      <workItem from="1608864517934" duration="5721000" />
+      <workItem from="1608864517934" duration="5990000" />
+      <workItem from="1608959022615" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -503,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608864563593</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Shop update">
+      <created>1608958693102</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608958693102</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

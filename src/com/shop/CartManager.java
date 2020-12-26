@@ -117,14 +117,18 @@ public class CartManager {
     public void printAllCartItem(String logId) {
         int checkUserNo = findUserNo(logId);
         int count = 0;
+        int price = 0;
         for (Cart cart : cartList) {
             if (checkUserNo == cart.userNo) { // 장바구니 내에 유저의 번호와 같은 물품이 등뢱되어있으면
                 cartItemName(cart.itemNo, count);
                 count++;
+                price += cartItemPrice(cart.itemNo);
             }
         }
         if (count == 0) {
             System.out.println("장바구니가 비었습니다");
+        } else {
+            System.out.println("장바구니 총 결제금액 : " + price + "원");
         }
     }
 
@@ -141,6 +145,15 @@ public class CartManager {
                 break;
             }
         }
+    }
+
+    public int cartItemPrice(int itemNo) {
+        for (int i = 0; i < ItemManager.itemList.size(); i++) {
+            if (itemNo == ItemManager.itemList.get(i).itemNo) {
+                return ItemManager.itemList.get(i).price;
+            }
+        }
+        return 0;
     }
 
     public void deleteCartItem(String logId) {
