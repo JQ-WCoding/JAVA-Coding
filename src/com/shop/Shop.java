@@ -21,17 +21,24 @@ public class Shop {
     }
 
     public void run() {
+        // 회원, 장바구니, 물품 전체 로드
+        fileManager.loadAll();
         while (true) {
             mainMenuText();
             int choice = scanner.nextInt();
             if (choice == 1) { // 관리자 메뉴
-                adminMenu();
+                if (logId.equals("")) {
+                    adminMenu();
+                } else {
+                    System.out.println("회원이 로그인 중입니다.");
+                }
             } else if (choice == 2) { // 사용자 메뉴
                 userMenu();
             } else if (choice == 0) { // 프로그램 종료
                 System.out.println("프로그램 종료");
                 break;
             }
+            fileManager.saveAll();
         }
         scanner.close();
     }
@@ -47,30 +54,27 @@ public class Shop {
      * 관리자 메뉴
      */
     public void adminMenu() {
-        while (true) {
-            System.out.println("[관리자] ID를 입력하세요");
-            String myId = scanner.next();
-            System.out.println("[관리자] PW를 입력하세요");
-            String myPw = scanner.next();
-
-            boolean check = adminChecking(myId, myPw);
-            if (check) { // 제대로 기입시
+        boolean check = userManager.adminLogin(admin);
+        if (check) { // 제대로 기입시
+            logId = admin.id;
+            while (true) {
                 adminMenuText();
                 int choice = scanner.nextInt();
                 if (choice == 1) { // 물품 관리
                     manageItem();
                 } else if (choice == 2) { // 장바구니 관리
-
+                    cartManager.manageCart();
                 } else if (choice == 3) { // 사용자 관리
                     manageUser();
-                } else if (choice == 0) {
-                    System.out.println("메인메뉴 이동");
+                } else if (choice == 0) { // 메인 메뉴 이동
+                    System.out.println("로그아웃 후 메인메뉴 이동");
+                    logId = "";
                     break;
                 }
-            } else { // 기입 오류시
-                System.out.println("ID 혹은 PW 기입 오류");
-                break;
             }
+            fileManager.saveAll();
+        } else { // 기입 오류시
+            System.out.println("ID 혹은 PW 기입 오류");
         }
     }
 
@@ -86,20 +90,6 @@ public class Shop {
         System.out.println("[0] 메인메뉴 이동");
     }
 
-    /**
-     * 관리자 아이디 비밀번호 체크
-     *
-     * @param myId
-     * @param myPw
-     * @return check
-     */
-    public boolean adminChecking(String myId, String myPw) {
-        boolean check = false;
-        if (admin.id.equals(myId) && admin.pw.equals(myPw)) {
-            check = true;
-        }
-        return check;
-    }
 
     /**
      * 사용자 메뉴
@@ -111,31 +101,47 @@ public class Shop {
             if (choice == 1) { // 로그인
                 if (logId.equals("")) {
                     logId = userManager.userLogin();
+                } else {
+                    System.out.println("다른 회원이 로그인 중입니다");
                 }
             } else if (choice == 2) { // 회원 가입
                 if (logId.equals("")) {
                     userManager.userSignIn();
+                } else {
+                    System.out.println("다른 회원이 로그인 중입니다");
                 }
             } else if (choice == 3) { // 물품 구매
                 if (!logId.equals("")) {
                     cartManager.buyItem(logId);
+                } else {
+                    System.out.println("로그인이 필요합니다");
                 }
             } else if (choice == 4) { // 장바구니 확인
                 if (!logId.equals("")) {
                     cartManager.checkCart(logId);
+                } else {
+                    System.out.println("로그인이 필요합니다");
                 }
             } else if (choice == 5) { // 로그아웃
                 if (!logId.equals("")) {
                     logId = "";
+                } else {
+                    System.out.println("로그인이 필요합니다");
                 }
             } else if (choice == 6) { // 회원 탈퇴
                 if (!logId.equals("")) {
                     userManager.userSignOut(logId);
+                    logId = "";
+                } else {
+                    System.out.println("로그인이 필요합니다");
                 }
             } else if (choice == 0) { // 뒤로가기
                 System.out.println("메인 메뉴로 이동합니다");
+                System.out.println("자동 로그아웃 됩니다");
+                logId = "";
                 break;
             }
+            fileManager.saveAll();
         }
     }
 

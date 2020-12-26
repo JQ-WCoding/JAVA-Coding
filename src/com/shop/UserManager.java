@@ -205,6 +205,8 @@ public class UserManager {
 
             // 고유 회원 번호 자동 기입하기
             addUser.userNo = addUserNo();
+            // 해당 회원 추가
+            userList.add(addUser);
         } else {
             System.out.println("아이디가 중복됩니다");
         }
@@ -247,6 +249,11 @@ public class UserManager {
         return userNo;
     }
 
+    /**
+     * 회원 탈퇴
+     *
+     * @param logId
+     */
     public void userSignOut(String logId) {
         while (true) {
             System.out.println("[회원 탈퇴]회원탈퇴를 진행하시겠습니까? (1) 예 (2) 아니오");
@@ -278,5 +285,37 @@ public class UserManager {
                 break;
             }
         }
+    }
+
+
+    public boolean adminLogin(User admin) {
+        System.out.println("[관리자] ID를 입력하세요");
+        String myId = Shop.scanner.next();
+        System.out.println("[관리자] PW를 입력하세요");
+        String myPw = Shop.scanner.next();
+
+        boolean check = adminChecking(myId, myPw, admin);
+        if (check) { // 올바르게 기입시
+            return true;
+        } else {
+            System.out.println("관리자 아이디 혹은 비밀번호 기입 오류");
+            return false;
+        }
+    }
+
+    /**
+     * 관리자 아이디 비밀번호 체크
+     *
+     * @param myId
+     * @param myPw
+     * @param admin
+     * @return check
+     */
+    public boolean adminChecking(String myId, String myPw, User admin) {
+        boolean check = false;
+        if (admin.id.equals(myId) && admin.pw.equals(myPw)) {
+            check = true;
+        }
+        return check;
     }
 }

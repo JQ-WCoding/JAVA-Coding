@@ -82,7 +82,7 @@ public class CartManager {
     public int findUserNo(String logId) {
         int index = -1;
         for (int i = 0; i < UserManager.userList.size(); i++) {
-            if (logId.equals(UserManager.userList.get(i).name)) {
+            if (logId.equals(UserManager.userList.get(i).id)) {
                 index = i;
                 break;
             }
@@ -180,5 +180,48 @@ public class CartManager {
         System.out.println("[1] 장바구니 전체 품목 확인");
         System.out.println("[2] 장바구니 물품 삭제");
         System.out.println("[0] 뒤로가기");
+    }
+
+    /**
+     * 관리자 장바구니 관리
+     */
+    public void manageCart() {
+        System.out.println("[장바구니 관리]");
+        System.out.println("관리할 회원의 번호를 입력하세요");
+        int checkUserNo = Shop.scanner.nextInt();
+
+        boolean check = false;
+
+        for (Cart cart : cartList) {
+            if (checkUserNo == cart.userNo) {
+                check = true;
+                break;
+            }
+        }
+
+        if (check) {
+            // 장바구니 물품 번호 출력
+            int count = 0;
+            for (Cart cart : cartList) {
+                if (checkUserNo == cart.userNo) {
+                    System.out.println(cart.itemNo);
+                    cartItemName(cart.itemNo, count);
+                    count++;
+                }
+            }
+
+            System.out.println("삭제할 물품 번호를 입력하세요");
+            int checkItemNo = Shop.scanner.nextInt();
+
+            for (int i = 0; i < cartList.size(); i++) {
+                if (checkUserNo == cartList.get(i).userNo && checkItemNo == cartList.get(i).itemNo) {
+                    System.out.println("해당 물품을 삭제합니다");
+                    cartList.remove(i);
+                    break;
+                }
+            }
+        } else {
+            System.out.println("해당 회원의 장바구니가 비었습니다");
+        }
     }
 }
