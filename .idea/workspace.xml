@@ -14,13 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Shop update">
-      <change afterPath="$PROJECT_DIR$/src/Day071P/ButtonEx2/ButtonEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day071P/ButtonEx3/ButtonEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day071P/Button1to50/AfterTimer/AfterTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day071P/Button1to50/BeforeTimer/BeforeTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day071P/ButtonEx4/ButtonEx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day071P/ButtonTicTacToe/ButtonEx5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shop/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shop/ItemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/ItemManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shop/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/UserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day071P/ButtonEx3/ButtonEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day071P/ButtonEx3/ButtonEx3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +85,13 @@
       <recent name="$PROJECT_DIR$/JavaScript/a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ButtonEx2">
-    <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day070P.ArraySort.ArraySort" />
+  <component name="RunManager" selected="Application.AfterTimer">
+    <configuration name="AfterTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day071P.Button1to50.AfterTimer.AfterTimer" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day070P.ArraySort.*" />
+          <option name="PATTERN" value="Day071P.Button1to50.AfterTimer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ButtonEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day071P.ButtonEx2.ButtonEx2" />
+    <configuration name="BeforeTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day071P.Button1to50.BeforeTimer" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day071P.ButtonEx2.*" />
+          <option name="PATTERN" value="Day071P.Button1to50.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day070P.HashMapSort.HashMapSort" />
+    <configuration name="ButtonEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day071P.ButtonEx3.ButtonEx3" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day070P.HashMapSort.*" />
+          <option name="PATTERN" value="Day071P.ButtonEx3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shop.Main" />
+    <configuration name="ButtonEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day071P.ButtonEx4.ButtonEx4" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shop.*" />
+          <option name="PATTERN" value="Day071P.ButtonEx4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day070P.ThreadEx2.ThreadEx2" />
+    <configuration name="ButtonEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day071P.ButtonTicTacToe.ButtonEx5" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day070P.ThreadEx2.*" />
+          <option name="PATTERN" value="Day071P.ButtonTicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ButtonEx2" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HashMapSort" />
-        <item itemvalue="Application.ArraySort" />
-        <item itemvalue="Application.ThreadEx2" />
+        <item itemvalue="Application.AfterTimer" />
+        <item itemvalue="Application.BeforeTimer" />
+        <item itemvalue="Application.ButtonEx5" />
+        <item itemvalue="Application.ButtonEx4" />
+        <item itemvalue="Application.ButtonEx3" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +250,7 @@
       <workItem from="1608785737289" duration="7337000" />
       <workItem from="1608864517934" duration="5990000" />
       <workItem from="1608959022615" duration="747000" />
-      <workItem from="1609116244079" duration="2838000" />
+      <workItem from="1609116244079" duration="8125000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -442,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608959764111</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Shop update">
+      <created>1609126303478</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1609126303478</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -23,7 +23,7 @@ class MyPanel extends JPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (button == e.getSource()){
+        if (button == e.getSource()) {
             button.setText("이름 바뀜");
         }
     }
@@ -31,6 +31,14 @@ class MyPanel extends JPanel implements ActionListener {
 
 public class ButtonEx3 {
     public static void main(String[] args) {
+        JFrame frame = new JFrame("버튼 연습문제3");
 
+        frame.setBounds(100, 100, 1000, 800);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        frame.setContentPane(new MyPanel());
+
+        frame.setVisible(true);
+        frame.revalidate();
     }
 }
