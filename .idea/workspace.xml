@@ -14,99 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Shop update">
-      <change afterPath="$PROJECT_DIR$/CSS/css1/00_coffee.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/01_tag1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/01_tag2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/01_tag3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/02_class1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/02_class2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/02_class3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/03_id1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/03_id2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/04_div1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/04_div2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/05_font_web.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/05_fontstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/06_text_deco.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/06_text_trans.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/07_form1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css1/07_form2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/css_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/css_table_align1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/css_table_back.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/css_table_coll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/css_table_color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/link1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/link2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/liststyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/margin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/margin_padding.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/padding1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/css2/padding2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CrazyArcade.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileWriterEx01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA_PRACTICE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a00_statement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a01_boolean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a01_datatype.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a01_variable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a02_operator0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a02_operator1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a02_operator2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a02_operator3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a02_operator4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a02_operator5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a03_string_plus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a03_text_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a04_weight1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a04_weight2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a05_test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a05_test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a06_example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/a/a06_import.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b01_if1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b01_if2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b01_if3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b02_else1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b02_else2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b02_elseif.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b03_inif.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b04_switch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b05_while1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b05_while2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b05_while3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b05_while4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b06_for1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b06_for2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b07_doublefor1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b07_doublefor2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b08_break.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/b/b08_continue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accountData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileTest01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileTest02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maker.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ATM.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day020_P/Day02001영화관좌석예매문제_P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day020_P/Day02002즉석복권_P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day021_P/Day02103틱택토_P.java.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day022_P/Day02203브루마블renew.java.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day022_P/Day02204구구단문제.java.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day023_P/Day02302배열컨트롤러.java.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day041P/atm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day041P/jang.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day041P/이준규_ATM_BASKET.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day071P/ButtonEx1/ButtonEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/이준규Bank.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/이준규Bank수정본(12:22).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/program_이준규.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/이준규문제풀이(11.23).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day071P/ButtonEx2/ButtonEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day071P/ButtonEx3/ButtonEx3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shop/CartManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/CartManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shop/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shop/ItemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/ItemManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shop/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shop/UserManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,13 +86,26 @@
       <recent name="$PROJECT_DIR$/JavaScript/a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ButtonEx2">
     <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day070P.ArraySort.ArraySort" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day070P.ArraySort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day071P.ButtonEx2.ButtonEx2" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day071P.ButtonEx2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,19 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day070P.MyArrayList.MyArrayListFinal" />
-      <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day070P.MyArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day070P.ThreadEx2.ThreadEx2" />
       <module name="Green_Practice" />
@@ -238,13 +152,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ButtonEx2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HashMapSort" />
         <item itemvalue="Application.ArraySort" />
         <item itemvalue="Application.ThreadEx2" />
-        <item itemvalue="Application.MyArrayListFinal" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +250,8 @@
       <workItem from="1608768408583" duration="4984000" />
       <workItem from="1608785737289" duration="7337000" />
       <workItem from="1608864517934" duration="5990000" />
-      <workItem from="1608959022615" duration="682000" />
+      <workItem from="1608959022615" duration="747000" />
+      <workItem from="1609116244079" duration="2838000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -509,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608958693102</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Shop update">
+      <created>1608959764111</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1608959764111</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

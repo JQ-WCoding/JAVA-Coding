@@ -24,6 +24,7 @@ public class Shop {
         // 회원, 장바구니, 물품 전체 로드
         fileManager.loadAll();
         while (true) {
+            fileManager.saveAll();
             mainMenuText();
             int choice = scanner.nextInt();
             if (choice == 1) { // 관리자 메뉴
@@ -38,8 +39,8 @@ public class Shop {
                 System.out.println("프로그램 종료");
                 break;
             }
-            fileManager.saveAll();
         }
+        fileManager.saveAll();
         scanner.close();
     }
 
@@ -58,6 +59,7 @@ public class Shop {
         if (check) { // 제대로 기입시
             logId = admin.id;
             while (true) {
+                fileManager.saveAll();
                 adminMenuText();
                 int choice = scanner.nextInt();
                 if (choice == 1) { // 물품 관리
@@ -72,7 +74,6 @@ public class Shop {
                     break;
                 }
             }
-            fileManager.saveAll();
         } else { // 기입 오류시
             System.out.println("ID 혹은 PW 기입 오류");
         }
@@ -96,6 +97,7 @@ public class Shop {
      */
     public void userMenu() {
         while (true) {
+            fileManager.saveAll();
             userMenuMessage();
             int choice = scanner.nextInt();
             if (choice == 1) { // 로그인
@@ -141,7 +143,6 @@ public class Shop {
                 logId = "";
                 break;
             }
-            fileManager.saveAll();
         }
     }
 
@@ -182,6 +183,7 @@ public class Shop {
             } else if (choice == 4) { // 전체 물품 출력
                 itemManager.printAll();
             } else if (choice == 0) { // 뒤로가기
+                fileManager.saveAll();
                 break;
             }
         }
@@ -209,6 +211,7 @@ public class Shop {
             } else if (choice == 4) { // 회원 전체 출력
                 userManager.printAll();
             } else if (choice == 0) { // 뒤로가기
+                fileManager.saveAll();
                 break;
             }
         }

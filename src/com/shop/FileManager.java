@@ -1,6 +1,7 @@
 package com.shop;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 
@@ -165,13 +166,19 @@ public class FileManager {
      * 데이터 로드 메소드
      *
      * @param fileName
-     * @return String data
+     * @return String data , ""
      */
     public String loadLineData(String fileName) {
+        File file;
         FileReader fileReader;
         BufferedReader bufferedReader;
 
         StringBuilder data = new StringBuilder();
+
+        file = new File(fileName);
+        if (!file.exists()) {
+            return "";
+        }
 
         try {
             fileReader = new FileReader(fileName);
@@ -187,7 +194,7 @@ public class FileManager {
             return data.toString();
         } catch (Exception e) {
             System.out.println("로드 오류");
-            return null;
+            return "";
         }
     }
 

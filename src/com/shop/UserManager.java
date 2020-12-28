@@ -77,7 +77,7 @@ public class UserManager {
                         index = i;
                     }
                 }
-                userList.remove(index);
+                deleteUserCart(index);
                 break;
             } else {
                 System.out.println("해당 번호의 회원이 존재하지 않습니다");
@@ -255,38 +255,53 @@ public class UserManager {
      * @param logId
      */
     public void userSignOut(String logId) {
-        while (true) {
-            System.out.println("[회원 탈퇴]회원탈퇴를 진행하시겠습니까? (1) 예 (2) 아니오");
-            int choice = Shop.scanner.nextInt();
+        System.out.println("[회원 탈퇴]회원탈퇴를 진행하시겠습니까? (1) 예 (2) 아니오");
+        int choice = Shop.scanner.nextInt();
 
-            if (choice == 1) { // 회원 탈퇴
-                int index = -1;
-                for (int i = 0; i < userList.size(); i++) {
-                    if (logId.equals(userList.get(i).id)) {
-                        index = i;
-                        break;
-                    }
+        if (choice == 1) { // 회원 탈퇴
+            int index = -1;
+            for (int i = 0; i < userList.size(); i++) {
+                if (logId.equals(userList.get(i).id)) {
+                    index = i;
+                    break;
                 }
-                int checkUserNo = userList.get(index).userNo;
-
-                // 회원 삭제
-                userList.remove(index);
-
-                int cartSize = CartManager.cartList.size();
-                // 카트 내용물 삭제
-                for (int i = 0; i < cartSize; i++) {
-                    if (checkUserNo == CartManager.cartList.get(i).userNo) {
-                        CartManager.cartList.remove(i);
-                        cartSize--;
-                    }
-                }
-            } else {
-                System.out.println("이전 메뉴로 이동합니다");
-                break;
             }
+            deleteUserCart(index);
+//            int checkUserNo = userList.get(index).userNo;
+//
+//            // 회원 삭제
+//            userList.remove(index);
+//
+//            int cartSize = CartManager.cartList.size();
+//            // 카트 내용물 삭제
+//            for (int i = 0; i < cartSize; i++) {
+//                if (checkUserNo == CartManager.cartList.get(i).userNo) {
+//                    CartManager.cartList.remove(i);
+//                    i--;
+//                    cartSize--;
+//                }
+//            }
+        } else {
+            System.out.println("이전 메뉴로 이동합니다");
         }
     }
 
+    public void deleteUserCart(int index) {
+        int checkUserNo = userList.get(index).userNo;
+
+        // 회원 삭제
+        userList.remove(index);
+
+        int cartSize = CartManager.cartList.size();
+        // 카트 내용물 삭제
+        for (int i = 0; i < cartSize; i++) {
+            if (checkUserNo == CartManager.cartList.get(i).userNo) {
+                CartManager.cartList.remove(i);
+                i--;
+                cartSize--;
+            }
+        }
+    }
 
     public boolean adminLogin(User admin) {
         System.out.println("[관리자] ID를 입력하세요");

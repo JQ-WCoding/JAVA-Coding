@@ -103,22 +103,41 @@ public class ItemManager {
     public void deleteCategory() {
         System.out.println("[삭제] 삭제할 카테고리를 입력하세요");
         String checkCategory = Shop.scanner.next();
-
-
-        ArrayList<Integer> indexList = new ArrayList<>();
-        for (int i = 0; i < itemList.size(); i++) {
-            if (checkCategory.equals(itemList.get(i).category)) {
-                indexList.add(i);
+        boolean check = false;
+        for (Item item : itemList) {
+            if (checkCategory.equals(item.category)) {
+                check = true;
+                break;
             }
         }
-        if (indexList.size() != 0) {
-            System.out.println("해당 카테고리가 포함된 물품을 모두 삭제합니다");
-            for (Integer integer : indexList) {
-                itemList.remove(Integer.parseInt(String.valueOf(integer)));
+        if (check) {
+            System.out.println("해당 카테고리의 물품을 모두 삭제합니다");
+            int size = itemList.size();
+            for (int i = 0; i < size; i++) {
+                if (checkCategory.equals(itemList.get(i).category)) {
+                    itemList.remove(i);
+                    i--;
+                    size--;
+                }
             }
         } else {
-            System.out.println("삭제할 카테고리가 존재하지 않습니다.");
+            System.out.println("삭제할 카테고리가 존재하지 않습니다");
         }
+//        ArrayList<Integer> indexList = new ArrayList<>();
+//        for (int i = 0; i < itemList.size(); i++) {
+//            if (checkCategory.equals(itemList.get(i).category)) {
+//                indexList.add(i);
+//            }
+//        }
+//        if (indexList.size() != 0) {
+//            System.out.println("해당 카테고리가 포함된 물품을 모두 삭제합니다");
+//            int size = itemList.size();
+//            for (int i = 0; i < indexList.size(); i++) {
+//                itemList.remove(indexList.get(i));
+//            }
+//        } else {
+//            System.out.println("삭제할 카테고리가 존재하지 않습니다.");
+//        }
     }
 
 
