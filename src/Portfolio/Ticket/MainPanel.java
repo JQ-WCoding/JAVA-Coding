@@ -234,37 +234,71 @@ public class MainPanel extends JPanel implements ActionListener {
                         userCharges[i] = 0;
                     }
                     int change = totalMyMoney - totalPrice;
-                    for (int i = 0; i < moneys.length; i++) {
-                        if (charges[i] != 0 && change / moneys[i] != 0) {
-                            charges[i] -= change / moneys[i];
-                            change %= moneys[i];
+
+                    int totalCharges = totalCharges(change);
+
+                    if (totalCharges < change) {
+                        setAlarmFrame("잔돈 부족");
+                    } else {
+                        for (int i = 0; i < moneys.length; i++) {
+                            if (charges[i] != 0 && change / moneys[i] != 0) {
+                                charges[i] -= change / moneys[i];
+                                change %= moneys[i];
+                            }
                         }
+                        for (int i = 0; i < moneys.length; i++) {
+                            adminItems[i].countText.setText(charges[i] + "");
+                            userItems[i].countText.setText(userCharges[i] + "");
+                        }
+                        tickets[0] -= tickets[1];
+                        tickets[1] = 0;
+                        adminItems[adminItems.length - 1].countText.setText(tickets[0] + "");
+                        userItems[userItems.length - 1].countText.setText(tickets[1] + "");
                     }
-                    for (int i = 0; i < moneys.length; i++) {
-                        adminItems[i].countText.setText(charges[i] + "");
-                        userItems[i].countText.setText(userCharges[i] + "");
-                    }
-                    tickets[0] -= tickets[1];
-                    tickets[1] = 0;
-                    adminItems[adminItems.length - 1].countText.setText(tickets[0] + "");
-                    userItems[userItems.length - 1].countText.setText(tickets[1] + "");
                 }
             } else {
-                JFrame frame = new JFrame("알림");
-                frame.setBounds(500, 500, 100, 100);
-
-                JPanel panel = new JPanel();
-                panel.setLayout(null);
-                JLabel label = new JLabel("수량 부족");
-                label.setBounds(0, 0, 100, 100);
-                label.setHorizontalAlignment(JLabel.CENTER);
-                panel.add(label);
-
-                frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
-                frame.setContentPane(panel);
-                frame.setVisible(true);
-                frame.revalidate();
+                setAlarmFrame("수량 부족");
             }
         }
+    }
+
+    /**
+     * 관리자 잔돈 확인
+     *
+     * @param change
+     * @return totalCharges
+     */
+    public int totalCharges(int change) {
+        int totalCharges = 0;
+        int index = -1;
+        for (int i = 0; i < moneys.length; i++) {
+            if (moneys[i] <= change) {
+                index = i;
+                break;
+            }
+        }
+        if (index != -1) {
+            for (int i = index; i < moneys.length; i++) {
+                totalCharges += charges[i] * moneys[i];
+            }
+        }
+        return totalCharges;
+    }
+
+    public void setAlarmFrame(String s) {
+        JFrame frame = new JFrame("알림");
+        frame.setBounds(500, 500, 100, 100);
+
+        JPanel panel = new JPanel();
+        panel.setLayout(null);
+        JLabel label = new JLabel(s);
+        label.setBounds(0, 0, 100, 100);
+        label.setHorizontalAlignment(JLabel.CENTER);
+        panel.add(label);
+
+        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+        frame.setContentPane(panel);
+        frame.setVisible(true);
+        frame.revalidate();
     }
 }
