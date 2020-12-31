@@ -27,7 +27,7 @@ public class MainPanel extends JPanel implements ActionListener {
         Font font = new Font("맑은 고딕", Font.BOLD, 40);
         setFont(font);
         mainBasicSetting();
-        add(new BoardPanel());
+//        add(new BoardPanel());
     }
 
     public void mainBasicSetting() {
@@ -151,6 +151,9 @@ public class MainPanel extends JPanel implements ActionListener {
                         }
                         counting++;
                         countNumber.setText(counting + "");
+                        if (counting > 50){
+                            countNumber.setText("완료");
+                        }
                     }
                 }
             }
@@ -164,7 +167,6 @@ public class MainPanel extends JPanel implements ActionListener {
             gameStart = false;
             // 보드 리셋
             boardReset();
-//            mainBasicSetting();
         }
     }
 

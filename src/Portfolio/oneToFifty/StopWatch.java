@@ -31,7 +31,7 @@ public class StopWatch extends Thread {
                 }else {
                     MainPanel.time.setText(StopWatch.timeText);
                 }
-            } catch (Exception e) {
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }

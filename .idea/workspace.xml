@@ -13,9 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="1 to 50 without restart button">
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="1 to 50 finish">
+      <change afterPath="$PROJECT_DIR$/src/Portfolio/SnakeGame/GameSnake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Portfolio/oneToFifty/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Portfolio/oneToFifty/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Portfolio/oneToFifty/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Portfolio/oneToFifty/StopWatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -483,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609331675611</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="1 to 50 finish">
+      <created>1609384273930</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1609384273930</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,6 +535,7 @@
     <MESSAGE value="Day072" />
     <MESSAGE value="TicketButton Finish" />
     <MESSAGE value="1 to 50 without restart button" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 to 50 without restart button" />
+    <MESSAGE value="1 to 50 finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 to 50 finish" />
   </component>
 </project>
