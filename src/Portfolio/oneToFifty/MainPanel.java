@@ -51,7 +51,7 @@ public class MainPanel extends JPanel implements ActionListener {
 
         countNumber = new JLabel();
         countNumber.setText(counting + "");
-        countNumber.setBounds(500, 100, 150, 50);
+        countNumber.setBounds(500, 0, 300, 50);
         countNumber.setBackground(Color.BLACK);
         countNumber.setForeground(Color.WHITE);
         countNumber.setOpaque(true);
@@ -61,13 +61,23 @@ public class MainPanel extends JPanel implements ActionListener {
 
         time = new JLabel();
         time.setText("00 : 00 : 00");
-        time.setBounds(0, 100, 500, 50);
+        time.setBounds(0, 0, 500, 50);
         time.setBackground(Color.BLACK);
         time.setForeground(Color.WHITE);
         time.setOpaque(true);
         time.setHorizontalAlignment(JLabel.LEFT);
         time.setFont(getFont());
         add(time);
+
+        restart = new JButton("다시하기");
+        restart.setBounds(10, 50, 300, 50);
+        restart.setBackground(Color.PINK);
+        restart.setForeground(Color.WHITE);
+        restart.setOpaque(true);
+        restart.setHorizontalAlignment(JButton.CENTER);
+        restart.setFont(getFont());
+        restart.addActionListener(this);
+        add(restart);
     }
 
     /**
@@ -113,6 +123,7 @@ public class MainPanel extends JPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        clickRestart(e);
         numberClick(e);
     }
 
@@ -120,14 +131,14 @@ public class MainPanel extends JPanel implements ActionListener {
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
                 if (boardButtons[i][j].boardButton == e.getSource()) {
-                    if (boardButtons[i][j].boardButton.getText().equals("1")){
+                    if (boardButtons[i][j].boardButton.getText().equals("1")) {
                         StopWatch.play = true;
                         StopWatch stopWatch = new StopWatch();
                         stopWatch.start();
 
                         gameStart = true;
                     }
-                    if (boardButtons[i][j].boardButton.getText().equals("50")){
+                    if (boardButtons[i][j].boardButton.getText().equals("50")) {
                         StopWatch.play = false;
                     }
                     if ((countNumber.getText()).equals(boardButtons[i][j].boardButton.getText())) {
@@ -144,5 +155,31 @@ public class MainPanel extends JPanel implements ActionListener {
                 }
             }
         }
+    }
+
+    public void clickRestart(ActionEvent e) {
+        if (restart == e.getSource()) {
+            // 스톱워치와 게임 종료
+            StopWatch.play = false;
+            gameStart = false;
+            // 보드 리셋
+            boardReset();
+//            mainBasicSetting();
+        }
+    }
+
+    public void boardReset() {
+        frontBoard = new int[SIZE][SIZE];
+        backBoard = new int[SIZE][SIZE];
+        setFrontBoard();
+        setBackBoard();
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
+                boardButtons[i][j].boardButton.setText(frontBoard[i][j] + "");
+                boardButtons[i][j].boardButton.setBackground(Color.cyan);
+            }
+        }
+        counting = 1;
+        countNumber.setText(counting + "");
     }
 }
