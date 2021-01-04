@@ -13,10 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="1 to 50 finish">
-      <change afterPath="$PROJECT_DIR$/src/Portfolio/SnakeGame/MainPanel.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="snake">
+      <change afterPath="$PROJECT_DIR$/src/Day073P/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day073P/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day073P/Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Portfolio/SnakeGame/GameSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Portfolio/SnakeGame/GameSnake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +76,33 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JavaScript/a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GameSnake">
-    <configuration name="AfterTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day071P.Button1to50.AfterTimer.AfterTimer" />
+  <component name="RunManager" selected="Application.Ex02">
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day073P.Ex01" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day071P.Button1to50.AfterTimer.*" />
+          <option name="PATTERN" value="Day073P.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day073P.Ex02" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day073P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Portfolio.Ticket.Main" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day073P.Practice" />
       <module name="Green_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Portfolio.Ticket.*" />
+          <option name="PATTERN" value="Day073P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,26 +149,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mouse08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day072P.MouseEx08.Mouse08" />
-      <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day072P.MouseEx08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex02" />
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.Ex01" />
         <item itemvalue="Application.GameSnake" />
         <item itemvalue="Application.Game1to50" />
-        <item itemvalue="Application.AfterTimer" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Mouse08" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +257,9 @@
       <workItem from="1609287100009" duration="1524000" />
       <workItem from="1609288954813" duration="284000" />
       <workItem from="1609291249066" duration="323000" />
+      <workItem from="1609741889869" duration="704000" />
+      <workItem from="1609742952765" duration="139000" />
+      <workItem from="1609750768834" duration="7206000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -498,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609393911568</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="snake">
+      <created>1609579979866</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1609579979866</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Day046" />
     <MESSAGE value="Day047" />
     <MESSAGE value="Day048" />
     <MESSAGE value="Day049" />
@@ -542,6 +563,7 @@
     <MESSAGE value="TicketButton Finish" />
     <MESSAGE value="1 to 50 without restart button" />
     <MESSAGE value="1 to 50 finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 to 50 finish" />
+    <MESSAGE value="snake" />
+    <option name="LAST_COMMIT_MESSAGE" value="snake" />
   </component>
 </project>
