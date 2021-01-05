@@ -16,7 +16,7 @@ public class MainPanel extends JPanel implements ActionListener {
     int[] x;
     int[] y;
     int[] snake;
-    int itemCount = 4;
+    int itemCount = 0;
     int itemPlus = 31;
     int itemMinus = 32;
 
@@ -43,7 +43,6 @@ public class MainPanel extends JPanel implements ActionListener {
         setMap();
         setSnake();
         setButton();
-        setItem();
     }
 
     /**
@@ -125,30 +124,34 @@ public class MainPanel extends JPanel implements ActionListener {
      */
     public void setItem() {
         Random random = new Random();
-        while (itemCount > 0) {
-            // itemPlus or itemMinus 둘중 하나 구분 짓기
-            int randomItem = random.nextInt(2);
+        // itemPlus or itemMinus 둘중 하나 구분 짓기
+        int randomItem = random.nextInt(2);
 
-            int locationY = random.nextInt(SIZE);
-            int locationX = random.nextInt(SIZE);
+        int locationY = random.nextInt(SIZE);
+        int locationX = random.nextInt(SIZE);
 
-            if (data[locationY][locationX] == 0) { // 맵이 빈칸이면
-                if (randomItem == 0) {
-                    // 꼬리 증가 아이템
-                    data[locationY][locationX] = itemPlus;
-                    map[locationY][locationX].setBackground(Color.YELLOW);
-                } else {
-                    // 꼬리 감소 아이템
-                    data[locationY][locationX] = itemMinus;
-                    map[locationY][locationX].setBackground(Color.GREEN);
-                }
-                itemCount--;
+        if (data[locationY][locationX] == 0) { // 맵이 빈칸이면
+            if (randomItem == 0) {
+                // 꼬리 증가 아이템
+                data[locationY][locationX] = itemPlus;
+                map[locationY][locationX].setBackground(Color.YELLOW);
+            } else {
+                // 꼬리 감소 아이템
+                data[locationY][locationX] = itemMinus;
+                map[locationY][locationX].setBackground(Color.GREEN);
             }
+            itemCount++;
         }
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        if (itemCount < 4){
+            while (itemCount < 4){
+                setItem();
+            }
+        }
+
         int index = 0;
         for (int i = 0; i < direction.length; i++) {
             if (direction[i] == e.getSource()) {
@@ -174,26 +177,21 @@ public class MainPanel extends JPanel implements ActionListener {
         }
 
         if (SIZE <= moveX || moveX < 0 || SIZE <= moveY || moveY < 0) return;
+
+        if (data[moveY][moveX] != 0 && data[moveY][moveX] != itemMinus && data[moveY][moveX] != itemPlus) { // 자신의 꼬리를 물었을 경우
+            gameOver();
+        }
+        // 꼬리부분 0으로 초기화
+        data[y[snakeSize - 1]][x[snakeSize - 1]] = 0;
+
         int[] tempX = x;
         int[] tempY = y;
+        int[] tempSnake = snake;
         if (data[moveY][moveX] == itemPlus) { // 꼬리 길어지는 아이템
-            int[] tempSnake = snake;
-            snakeSize++;
-
-            x = new int[snakeSize];
-            y = new int[snakeSize];
-            snake = new int[snakeSize];
-            for (int i = 1; i < snakeSize; i++) {
-                x[i] = tempX[i - 1];
-                y[i] = tempY[i - 1];
-                snake[i] = tempSnake[i - 1] + 1;
-            }
-            snake[0] = 1;
+            getItem(tempY, tempX, tempSnake, true);
         } else if (data[moveY][moveX] == itemMinus) { // 꼬리 짧아지는 아이템
-
-        } else if (data[moveY][moveX] != 0 && data[moveY][moveX] != itemMinus && data[moveY][moveX] != itemPlus) { // 자신의 꼬리를 물었을 경우
-            gameOver();
-        } else { // 빈공간을 지나갈때
+            getItem(tempY, tempX, tempSnake, false);
+        } else if (data[moveY][moveX] == 0) { // 빈공간을 지나갈때
             for (int i = snakeSize - 1; i > 0; i--) {
                 y[i] = y[i - 1];
                 x[i] = x[i - 1];
@@ -208,10 +206,28 @@ public class MainPanel extends JPanel implements ActionListener {
             data[tempY[i]][tempX[i]] = 0;
         }
 
-//        for (int i = 0; i < snakeSize; i++) {
-//            data[y[i]][x[i]] = snake[i];
-//        }
+        for (int i = 0; i < snakeSize; i++) {
+            data[y[i]][x[i]] = snake[i];
+        }
         setSnake();
+    }
+
+    public void getItem(int[] tempY, int[] tempX, int[] tempSnake, boolean check) {
+        if (check) {
+            snakeSize++;
+        } else {
+            snakeSize--;
+        }
+        itemCount--;
+        x = new int[snakeSize];
+        y = new int[snakeSize];
+        snake = new int[snakeSize];
+        for (int i = 1; i < snakeSize; i++) {
+            x[i] = tempX[i - 1];
+            y[i] = tempY[i - 1];
+            snake[i] = tempSnake[i - 1] + 1;
+        }
+        snake[0] = 1;
     }
 
     public void gameOver() {

@@ -13,11 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="snake">
-      <change afterPath="$PROJECT_DIR$/src/Day073P/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day073P/Ex02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day073P/Practice.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Java for JSP / HashMap Practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Portfolio/SnakeGame/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Portfolio/SnakeGame/MainPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <recent name="$PROJECT_DIR$/JavaScript/a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex02">
+  <component name="RunManager" selected="Application.GameSnake">
     <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day073P.Ex01" />
       <module name="Green_Practice" />
@@ -149,23 +147,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameSnake" />
         <item itemvalue="Application.Ex02" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Ex01" />
-        <item itemvalue="Application.GameSnake" />
         <item itemvalue="Application.Game1to50" />
       </list>
     </recent_temporary>
@@ -259,7 +259,10 @@
       <workItem from="1609291249066" duration="323000" />
       <workItem from="1609741889869" duration="704000" />
       <workItem from="1609742952765" duration="139000" />
-      <workItem from="1609750768834" duration="7206000" />
+      <workItem from="1609750768834" duration="7286000" />
+      <workItem from="1609769209858" duration="688000" />
+      <workItem from="1609807885044" duration="1209000" />
+      <workItem from="1609832301785" duration="3782000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -520,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609579979866</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Java for JSP / HashMap Practice">
+      <created>1609769117812</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1609769117812</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Day047" />
     <MESSAGE value="Day048" />
     <MESSAGE value="Day049" />
     <MESSAGE value="Day050" />
@@ -564,6 +573,7 @@
     <MESSAGE value="1 to 50 without restart button" />
     <MESSAGE value="1 to 50 finish" />
     <MESSAGE value="snake" />
-    <option name="LAST_COMMIT_MESSAGE" value="snake" />
+    <MESSAGE value="Java for JSP / HashMap Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java for JSP / HashMap Practice" />
   </component>
 </project>
