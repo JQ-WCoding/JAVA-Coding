@@ -13,11 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="SnakeGame finish">
-      <change afterPath="$PROJECT_DIR$/src/Day074P/ChangePanel/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day074P/Image/Ex02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day074P/TextField/Ex03.java" afterDir="false" />
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day074">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day070P/MyArrayList/MyArrayListFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day070P/MyArrayList/MyArrayListFinal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <recent name="$PROJECT_DIR$/JavaScript/a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex03">
+  <component name="RunManager" selected="Application.MyArrayListFinal">
     <configuration name="Ex01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day074P.ChangePanel.Ex01" />
       <module name="Green_Practice" />
@@ -103,19 +101,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day074P.Image.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day073P.Ex02" />
-      <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day073P.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,26 +134,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="MyArrayListFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day070P.MyArrayList.MyArrayListFinal" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day070P.MyArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyArrayListFinal" />
         <item itemvalue="Application.Ex03" />
         <item itemvalue="Application.Ex02 (1)" />
         <item itemvalue="Application.Ex01 (1)" />
         <item itemvalue="Application.GameSnake" />
-        <item itemvalue="Application.Ex02" />
       </list>
     </recent_temporary>
   </component>
@@ -266,6 +262,10 @@
       <workItem from="1609807885044" duration="1209000" />
       <workItem from="1609832301785" duration="4460000" />
       <workItem from="1609844564846" duration="1688000" />
+      <workItem from="1609846267804" duration="210000" />
+      <workItem from="1609846566527" duration="6000" />
+      <workItem from="1610630087257" duration="292000" />
+      <workItem from="1610674186548" duration="6743000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -540,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609837737074</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Day074">
+      <created>1609846451075</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1609846451075</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +566,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Day049" />
     <MESSAGE value="Day050" />
     <MESSAGE value="Day051" />
     <MESSAGE value="Day052" />
@@ -584,6 +590,7 @@
     <MESSAGE value="snake" />
     <MESSAGE value="Java for JSP / HashMap Practice" />
     <MESSAGE value="SnakeGame finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="SnakeGame finish" />
+    <MESSAGE value="Day074" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day074" />
   </component>
 </project>
