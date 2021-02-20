@@ -23,11 +23,13 @@ public class MainPanel extends JPanel implements ActionListener {
 
     public MainPanel() {
         setLayout(null);
+
         try {
             UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         map = new JButton[SIZE][SIZE];
         // 상하좌우 4가지 방향버튼
         direction = new JButton[4];

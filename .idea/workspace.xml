@@ -13,9 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="Day074">
+    <list default="true" id="a38a9743-16b5-429f-8150-90dce27954d8" name="Default Changelist" comment="arraylist">
+      <change afterPath="$PROJECT_DIR$/src/edu/example.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day070P/MyArrayList/MyArrayListFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day070P/MyArrayList/MyArrayListFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Portfolio/SnakeGame/GameSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Portfolio/SnakeGame/GameSnake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Portfolio/SnakeGame/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Portfolio/SnakeGame/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Portfolio/bank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Portfolio/bank/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,7 @@
       <recent name="$PROJECT_DIR$/JavaScript/a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyArrayListFinal">
+  <component name="RunManager" selected="Application.example">
     <configuration name="Ex01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day074P.ChangePanel.Ex01" />
       <module name="Green_Practice" />
@@ -121,19 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameSnake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Portfolio.SnakeGame.GameSnake" />
-      <module name="Green_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Portfolio.SnakeGame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyArrayListFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day070P.MyArrayList.MyArrayListFinal" />
       <module name="Green_Practice" />
@@ -147,24 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.example" />
+      <module name="Green_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.example" />
         <item itemvalue="Application.MyArrayListFinal" />
         <item itemvalue="Application.Ex03" />
         <item itemvalue="Application.Ex02 (1)" />
         <item itemvalue="Application.Ex01 (1)" />
-        <item itemvalue="Application.GameSnake" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +257,13 @@
       <workItem from="1609846267804" duration="210000" />
       <workItem from="1609846566527" duration="6000" />
       <workItem from="1610630087257" duration="292000" />
-      <workItem from="1610674186548" duration="6743000" />
+      <workItem from="1610674186548" duration="7058000" />
+      <workItem from="1613562278707" duration="2837000" />
+      <workItem from="1613619990284" duration="1375000" />
+      <workItem from="1613644147553" duration="969000" />
+      <workItem from="1613652033197" duration="15000" />
+      <workItem from="1613697183591" duration="848000" />
+      <workItem from="1613814569358" duration="406000" />
     </task>
     <task id="LOCAL-00001" summary="Day046">
       <created>1605709554459</created>
@@ -547,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609846451075</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="arraylist">
+      <created>1610694778615</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610694778615</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Day050" />
     <MESSAGE value="Day051" />
     <MESSAGE value="Day052" />
     <MESSAGE value="Day053" />
@@ -591,6 +595,7 @@
     <MESSAGE value="Java for JSP / HashMap Practice" />
     <MESSAGE value="SnakeGame finish" />
     <MESSAGE value="Day074" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day074" />
+    <MESSAGE value="arraylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="arraylist" />
   </component>
 </project>
